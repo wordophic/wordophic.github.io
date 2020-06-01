@@ -1,0 +1,27 @@
+
+/* font-family: Lato*/
+@font-face{
+    font-family: Lato;
+    src:url('./Lato/Lato-Regular.ttf');
+}
+
+/* font-family: Roboto*/
+@font-face{
+    font-family: Roboto;
+    src:url('./Roboto/Roboto-Regular.ttf');
+}
+/* font-family: Oswald*/
+@font-face{
+    font-family: Oswald;
+    src:url('./Oswald/Oswald-VariableFont_wght.ttf');
+}
+/* font-family: Open_Sans*/
+@font-face{
+    font-family: Open_Sans;
+    src:url('./Open_Sans/OpenSans-Regular.ttf');
+}
+/* font-family: Montserrat*/
+@font-face{
+    font-family: Montserrat;
+    src:url('./Montserrat/Montserrat-BoldItalic.ttf');
+}
