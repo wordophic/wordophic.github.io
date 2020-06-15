@@ -310,6 +310,7 @@ main .post-content .post-title a{
     padding: .4rem 1rem;
     border-radius: 3rem;
     margin:.4rem .6rem;
+    text-align: center;
 }
 
 
@@ -406,7 +407,7 @@ footer.footer{
 }
 footer.footer .container{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
 }
 footer.footer .container > div{
     flex-grow: 1;
@@ -420,7 +421,15 @@ footer.footer .newsletter .form-element{
     background: black;
     display: inline-block;
 }
-
+footer.footer .newsletter .form-element input{
+    padding: .5rem .7rem;
+    border: none;
+    background: transparent;
+    color: var(--white);
+    font-family: var(--Oswald);
+    font-size: 1rem;
+    width:74%;
+}
 footer.footer .newsletter .form-element span{
     background: var(--sky);
     padding: .2rem .3rem;
