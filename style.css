@@ -88,16 +88,16 @@ p{
 /*------------Site Title---------*/
 
 main .site-title{
-    background: url('./black-coffee-cup-and-black-notepad-on-black-table-3815759.jpg');
+    background: url('./Logo.jpg');
     background-size: cover;
-    height: 110vh;
+    height: 170vh;
     display: flex;
     justify-content: center;
 }
 main .site-title .site-background{
     padding-top: 10rem;
     text-align: center;
-    color:var(--white);
+    color:black;
 
 }
 main.site-title h1,h3{
