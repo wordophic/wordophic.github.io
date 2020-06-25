@@ -90,22 +90,22 @@ p{
 main .site-title{
     background: url('./Logo.jpg');
     background-size: cover;
-    height: 170vh;
+    height: 180vh;
     display: flex;
     justify-content: center;
 }
 main .site-title .site-background{
-    padding-top: 10rem;
+    padding-top: 0.1rem;
     text-align: center;
     color:black;
 
 }
 main.site-title h1,h3{
-    margin: .3rem;
+    margin: .2rem;
 
 }
 main .site-title .btn{
-    margin: 1.8rem;
+    margin: 0.1rem;
     background: var(--sky);
 }
 
@@ -127,7 +127,7 @@ main .blog{
     background-size: 40%;
 }
 .main .blog .blog-post{
-    padding: 6rem;
+    padding: 1rem;
 }
 main .blog-post .blog-content{
     display: flex;
@@ -183,7 +183,7 @@ main .post-content{
     margin-bottom: 5rem;
 }
 main .site-content .post-content> .post-image, .post-title{
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
     position: relative;
 }
 
@@ -243,8 +243,13 @@ main .post-content .post-title a{
 /*---------------x-------Site Content-------x-----*/
 
 /*--------------Sidebar---------------*/
+
+.site-content> .sidebar .category{
+    padding: 12rem .1rem;
+}
 .site-content> .sidebar .category-list{
     font-family: var(--Open_Sans);
+    
 }
 
 .site-content> .sidebar .category-list .list-items{
@@ -260,6 +265,11 @@ main .post-content .post-title a{
 .site-content> .sidebar .category-list .list-items a{
     color:black;
 }
+
+.site-content .sidebar .popular-post{
+    padding: 0.1rem;
+}
+
 
 .site-content .sidebar .popular-post .post-content{
     padding: .1rem 0;
@@ -405,6 +415,8 @@ footer.footer{
     background: var(--bg-color);
     position: relative;
 }
+
+
 footer.footer .container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -436,6 +448,12 @@ footer.footer .newsletter .form-element span{
     cursor: pointer;
 
 }
+
+footer.footer .about-us p {
+    color: azure;
+
+}
+
 footer.footer .instagram div > img{
     display: inline-block;
     width:25%;
@@ -447,6 +465,14 @@ footer.footer .follow div i{
     padding: 0.4rem;
     
 }
+footer.footer .follow p{
+    color: azure;
+} 
+footer.footer .follow a{
+    color: azure;
+}
+
+
 footer.footer .rights{
     justify-content: center;
     padding: 0.4rem;
