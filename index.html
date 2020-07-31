@@ -1,72 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169400093-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-169400093-2');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wordophic</title>
-<!-- Font Awesome icons-->
-<link rel="stylesheet" href="./all.css">
+    <!-- Font Awesome icons-->
+    <link rel="stylesheet" href="./all.css">
 
-<!-----------------Owl-Carousel-------->
-<link rel="stylesheet" href="./owl.carousel.min.css">
-<link rel="stylesheet" href="./owl.theme.default.min.css">
+    <!-----------------Owl-Carousel-------->
+    <link rel="stylesheet" href="./owl.carousel.min.css">
+    <link rel="stylesheet" href="./owl.theme.default.min.css">
 
-<!-------------------AOS Library--------------->
-<link rel="stylesheet" href="./aos.css">
+    <!-------------------AOS Library--------------->
+    <link rel="stylesheet" href="./aos.css">
 
-<!-- Custom Style-->
-<link rel="stylesheet"href="./style.css">
+    <!-- Custom Style-->
+    <link rel="stylesheet" href="./style.css">
 
 
 </head>
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-169400093-2', 'auto');
-    ga('send', 'pageview');
+
+<style>
+    .dropbtn {
+        font-size: 16px;
+        border: none;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: black;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px transparent;
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: flex;
+    }
+    
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+    
+    .screen {
+        padding-bottom: 50px;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .screen {
+            padding-bottom: 500px;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    }
+    /* @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+        .screen {
+            padding-bottom: 50px;
+        }
+    } */
+    /* @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+        .screen {
+            padding-bottom: 50px;
+        }
+    } */
+</style>
+<script type="text/javascript">
+    var i = 0;
+
+    function read() {
+        if (!i) {
+            document.getElementById("more").style.display = "inline";
+            document.getElementById("dots").style.display = "none";
+            document.getElementById("button").style.display = "inline";
+            document.getElementById("button").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more").style.display = "none";
+            document.getElementById("dots").style.display = "inline";
+            document.getElementById("button").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read1() {
+        if (!i) {
+            document.getElementById("more1").style.display = "inline";
+            document.getElementById("dots1").style.display = "none";
+            document.getElementById("button1").style.display = "inline";
+            document.getElementById("button1").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more1").style.display = "none";
+            document.getElementById("dots1").style.display = "inline";
+            document.getElementById("button1").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read2() {
+        if (!i) {
+            document.getElementById("more2").style.display = "inline";
+            document.getElementById("dots2").style.display = "none";
+            document.getElementById("button2").style.display = "inline";
+            document.getElementById("button2").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more2").style.display = "none";
+            document.getElementById("dots2").style.display = "inline";
+            document.getElementById("button2").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read3() {
+        if (!i) {
+            document.getElementById("more3").style.display = "inline";
+            document.getElementById("dots3").style.display = "none";
+            document.getElementById("button3").style.display = "inline";
+            document.getElementById("button3").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more3").style.display = "none";
+            document.getElementById("dots3").style.display = "inline";
+            document.getElementById("button3").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read4() {
+        if (!i) {
+            document.getElementById("more4").style.display = "inline";
+            document.getElementById("dots4").style.display = "none";
+            document.getElementById("button4").style.display = "inline";
+            document.getElementById("button4").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more4").style.display = "none";
+            document.getElementById("dots4").style.display = "inline";
+            document.getElementById("button4").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read5() {
+        if (!i) {
+            document.getElementById("more5").style.display = "inline";
+            document.getElementById("dots5").style.display = "none";
+            document.getElementById("button5").style.display = "inline";
+            document.getElementById("button5").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more5").style.display = "none";
+            document.getElementById("dots5").style.display = "inline";
+            document.getElementById("button5").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read6() {
+        if (!i) {
+            document.getElementById("more6").style.display = "inline";
+            document.getElementById("dots6").style.display = "none";
+            document.getElementById("button6").style.display = "inline";
+            document.getElementById("button6").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more6").style.display = "none";
+            document.getElementById("dots6").style.display = "inline";
+            document.getElementById("button6").innerHTML = "Read More";
+            i = 0;
+        }
+    }
 </script>
 
 <body>
 
 
-   <!------------------Navigation---------->
-    <nav class="nav">
+    <!------------------Navigation---------->
+    <nav class="nav screen">
 
         <div class="nav-menu flex-row">
             <div class="nav-brand">
-                <a href="#" class="textgray">WORDOPHIC</a>
+                <a href="./index.html" class="textgray">WORDOPHIC</a>
             </div>
             <div class="toggle-collapse">
                 <div class="toggle-icons">
-                   
-                </div>   
+
+                </div>
             </div>
             <div>
                 <ul class="nav-items">
                     <li class="nav-link">
-                        <a href="#">Home</a>
+                        <a href="./index.html">Home</a>
                     </li>
                     <li class="nav-link">
-                        <a href="#">Category</a>
+                        <div class="dropdown">
+                            <a class="dropbtn" href="#">Categories</a>
+                            <div class="dropdown-content">
+                                <a href="./learning.html">Learning</a>
+                                <a href="./nutrition.html">Nutrition</a>
+                                <a href="./psychology.html">Psychology</a>
+                                <a href="./fashion.html">Fashion</a>
+                                <a href="./health.html">Health</a>
+                                <a href="./entertainment.html">Entertainment</a>
+
+                            </div>
+                        </div>
+
                     </li>
                     <li class="nav-link">
+                        <div class="dropdown">
+                            <a class="dropbtn" href="#">Contact Us</a>
+                            <div class="dropdown-content">
+                                <a href="https://m.facebook.com/adky77">Adnan Khan</a>
+                                <a href="https://instagram.com/3man_shaikh?igshid=dxk03f4yyxs6">Eiman Sheikh</a>
+
+
+                            </div>
+                        </div>
+                    </li>
+                    <!-- <li class="nav-link">
                         <a href="#">Archive</a>
                     </li>
                     <li class="nav-link">
                         <a href="#">Pages</a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="#">Contact us</a>
-                    </li>
+                    </li> -->
+
                 </ul>
             </div>
             <div class="social text-gray">
-                
+
             </div>
         </div>
     </nav>
 
-   <!--------x---------Navigation------x--->
-   <!-------- Main Site Section--------------->
+    <!--------x---------Navigation------x--->
+    <!-------- Main Site Section--------------->
     <main>
 
         <!-------------Site Title------->
@@ -76,659 +281,583 @@
             <div class="site-background" data-aos="fade-up" data-aos-delay="100">
                 <h3>Writing is to writer what kingdom is to king!</h3>
                 <h1>Digital Creations</h1>
-                <button class="btn">Lets Read</button>
+                <!---------<button class="btn">Lets Read</button>-------------->
             </div>
         </section>
         <!----x--------Site Title--x---->
 
-    <!------------------Blog Carousel------------->    
-    <section>
-        <div class="blog">
-            <div class="container">
-                <div class="owl-carousel owl-theme blog-post">
-                    <div class="blog-content"data-aos="fade-in" data-aos-delay="200">
-                        <img src="./1.jpeg" alt="post-1">
-                        <div class="blog-title">
-                            <h3>Effervescent evenings, a happy cardia and fire in the soul</h3>
-                            <button class="btn btn-blog">Fashion</button>
+        <!------------------Blog Carousel------------->
+        <section>
+            <div class="blog">
+                <div class="container">
+                    <div class="owl-carousel owl-theme blog-post">
+                        <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
+                            <img src="./1.jpeg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Effervescent evenings, a happy cardia and fire in the soul</h3>
+                                <button class="btn btn-blog">Fashion</button>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-left" data-aos-delay="200">
+                            <img src="./2.jpeg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>I ditched envy to explore the unknown corners of my mystical mind</h3>
+                                <button class="btn btn-blog">Fashion</button>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./3.jpeg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Where there is makeup, smile is never far behind</h3>
+                                <button class="btn btn-blog">Fashion</button>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <img src="./7.jpeg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Plunged into makeup kit and discovered the new "me"</h3>
+                                <button class="btn btn-blog">Fashion</button>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <img src="./5.jpeg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Who needs wands, when the magic resides in brushes, drenched in makeup </h3>
+                                <button class="btn btn-blog">Fashion</button>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <img src="./6.jpeg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>You are stronger than your anxiety</h3>
+                                <button class="btn btn-blog">Fashion</button>
+                            </div>
                         </div>
                     </div>
-                    <div class="blog-content"data-aos="fade-left" data-aos-delay="200">
-                        <img src="./2.jpeg" alt="post-1">
-                        <div class="blog-title">
-                            <h3>I ditched envy to explore the unknown corners of my mystical mind</h3>
-                            <button class="btn btn-blog">Fashion</button>
-                        </div>
-                    </div>
-                    <div class="blog-content"data-aos="fade-right" data-aos-delay="200">
-                        <img src="./3.jpeg" alt="post-1">
-                        <div class="blog-title">
-                            <h3>Where there is makeup, smile is never far behind</h3>
-                            <button class="btn btn-blog">Fashion</button>
-                        </div>
-                    </div>
-                    <div class="blog-content">
-                        <img src="./7.jpeg" alt="post-1">
-                        <div class="blog-title">
-                            <h3>Plunged into makeup kit and discovered the new "me"</h3>
-                            <button class="btn btn-blog">Fashion</button>
-                        </div>
-                    </div>
-                    <div class="blog-content">
-                        <img src="./5.jpeg" alt="post-1">
-                        <div class="blog-title">
-                            <h3>Who needs wands, when the magic resides in brushes, drenched in makeup </h3>
-                            <button class="btn btn-blog">Fashion</button>
-                        </div>
-                    </div>
-                    <div class="blog-content">
-                        <img src="./6.jpeg" alt="post-1">
-                        <div class="blog-title">
-                            <h3>You are stronger than your anxiety</h3>
-                            <button class="btn btn-blog">Fashion</button>
-                        </div>
-                    </div>
+
                 </div>
-                 
             </div>
-        </div>
-    </section>
+        </section>
 
 
-    <!----------x-------Blog Carousel--------x---->
+        <!----------x-------Blog Carousel--------x---->
 
-    <!---------------------Site Content------------->
+        <!---------------------Site Content------------->
 
-    <section class="container">
-        <div class="site-content">
-            <div class="posts">
-                <div class="post-content"data-aos="zoom-in" data-aos-delay="200">
-                    <div class="post-image">
-                        <div>
-                            <img src="./health.jpeg" class="img" alt="blog1">
-                        </div>
-                    <div class="post-info flex-row">
-                        <spa
-                        n>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
-                        <span>&nbsp;&nbsp;July 1,2020</span>
-                        
-                    </div>
-                </div>
-                <div class="post-title">
-                    <a href="#"> 7	Secrets to health </a>
-                    <p>
-                        People can be captive of many misconceptions regarding their health and nutrition. The constantly emerging diets and ideas revolving around fitness may not do much good to your health if you are unaware of the underlying science of healthy lifestyle. Exercise, good night’s sleep, sunlight and good nutrition are all milestones for a healthier being. People who seek fitness should engage in meditation or yoga, breathing and physical exercises because exercise is the soul of healthy life. The different types of exercise steps include squats, strength training, push-ups, supported pull-ups, bent-overs, lunges, spiderman plank, mountain climbers, dragon walks etc. On the other hand, adequate nutrition corresponds to intake of balanced nutrients. A balanced diet contains adequate amounts of all food groups (carbohydrates, fats, proteins, minerals, vitamins and water), thus comprising of macro- and micronutrients. Furthermore, a healthy lifestyle is based on maximized productivity, less contact with technological radiations including Wi-Fi, cell phones and laptops, and enough exposure to sunlight to ensure functioning of our body’s circadian rhythms and thus radiating positivity.  
-                    </p>
-                   
-                </div>
-            </div>
-            <hr>
-                <div class="post-content"data-aos="zoom-in" data-aos-delay="200">
-                    <div class="post-image">
-                        <div>
-                            <img src="./nails.jpeg" class="img" alt="blog1">
-                        </div>
-                    <div class="post-info flex-row">
-                        <spa
-                        n>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
-                        <span>&nbsp;&nbsp;June 26,2020</span>
-                        
-                    </div>
-                </div>
-                <div class="post-title">
-                    <a href="#">What does your nail say?</a>
-                    <p>
-                        Nail is an alpha-keratinous plate found on the tip of fingers and toes. This horn-like structure called nail, if defected, can indicate signs of sickness in an individual. Through a nail, its shape, color and surface, a lot of knowledge about underlying health conditions can be discovered. Starting from the extreme positive end; healthy nails are always strong, flat and white or ivory-colored, and never flaky. However, thin pale nails result due to iron deficiency in the body. To construe it up, yellowish color in nails is a result of renal and gastrointestinal tract problems. Moreover, knobbly nails represent an infection in the body. Additionally, lack of zinc, copper and iodine can lead to white dots and streaks on the nails. Crumbling yellow or black nails occur due to fungal infection. Furthermore, brittle nails result from lack of iron and beta-carotene. Pitted nails can be a cause of skin disorder, psoriasis, eczema, or arthritis. Koilonychia is a spooning of nail resulting in raised ridges that can be due to lack of iron and so on.
-                    </p>
-                   
-                </div>
-            </div>
-            <hr>
-                <div class="post-content"data-aos="zoom-in" data-aos-delay="200">
-                    <div class="post-image">
-                        <div>
-                            <img src="./focused study.jpeg" class="img" alt="blog1">
-                        </div>
-                    <div class="post-info flex-row">
-                        <spa
-                        n>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
-                        <span>&nbsp;&nbsp;June 25,2020</span>
-                        
-                    </div>
-                </div>
-                <div class="post-title">
-                    <a href="#">Ways for focused study</a>
-                    <p>
-                        Work is an exercise for body parts, either physically or mentally. The mental exercises help with the focused work rather than the diffused one. 
-                        The tip number one to gain concentration for studying is to find pleasure in what you do, regardless of how hard that task is. You can also bring five times more attention to your challenge if you always find yourself at the same place (example, study table), and at the same time (i.e., 10 am everyday) for your study. Your to-do list should always be under your supervision. Cutting your accomplished task can help you in self-motivation. Prioritizing your tasks into categories (urgent : important, urgent : unimportant, not urgent : important and not urgent : unimportant) is also a good source for signifying what is better for you to complete first. Setting up a schedule for your duration of study should always be in your mind, e.g., 1 hour of study with a 5 minute break. This will help you focusing to the level-up. Moreover, staying hydrated and taking glucose-rich diet at breaks can strengthen your attention. Make sure if you are studying offline, then your distraction causing devices are far aside or turned off. Lastly, motivating background music can also help to concentrate better. 
-                    </p>
-                </div>
-            </div>
-            <hr>
-                <div class="post-content"data-aos="zoom-in" data-aos-delay="200">
-                    <div class="post-image">
-                        <div>
-                            <img src="./bodybuilding.jpeg" class="img" alt="blog1">
-                        </div>
-                    <div class="post-info flex-row">
-                        <spa
-                        n>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
-                        <span>&nbsp;&nbsp;June 20,2020</span>
-                    </div>
-                </div>
-                <div class="post-title">
-                    <a href="#">Bodybuilding</a>
-                    <p>
-                        Bodybuilding started with the world’s strongest man, Prussian Eugen Sandow (1867- 1925), who developed musculature for aesthetic purposes. Bodybuilding increases the muscle-mass, energizes the tissues, and modifies the muscle size and shape that is symmetrical and pleasing to the eye. This competitive activity makes bodybuilders to focus on hypertrophy, fat-loss and contest preparation. Bodybuilding is specialized for men and women according to their height, age, weight or body goal category. It comprises of ‘big three’ compound lifts – the squat, the bench, and the deadlift. Moreover, it signifies higher rep ranges for individual exercises, generally in 8-12 or 12-15 range are often performed in ‘superset’, where one exercise is immediately followed by another without a rest period. Cardio and diet also play a huge part in a bodybuilding program, as fat-loss and maintaining a lean physique are incredibly important. ȆSerious body building is a lifestyle requiring complete dedication, since what you eat and spend your time doing outside of the gym is equally important as the time you spend training!
-                    </p>
-                   
-                </div>
-            </div>
-            <hr>
-                <div class="post-content"data-aos="zoom-in" data-aos-delay="200">
-                    <div class="post-image">
-                        <div>
-                            <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
-                            <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
-                            <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
-                            
-                            <img src="./papaya.jpeg" class="img" alt="blog1">
-                        </div>
-                    <div class="post-info flex-row">
-                        <spa
-                        n>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
-                        <span>&nbsp;&nbsp;June 19,2020</span>
-                        
-                    </div>
-                </div>
-                <div class="post-title">
-                    <a href="#">Heath benefits of Papaya</a>
-                    <p>
-                        The great fruit that you eat during summers is papaya, served in dried, ripe or unripe forms. It has various health benefitting properties. This fruit is enriched in fibre, vitamin A, C, folate and photochemicals. It is low in calories. Moreover, it prevents cholesterol to build up in your arteries. The beta-carotene and papain that serve health, also benefit gastrointestinal health. It helps with skin damage, inflammation, and aging. Decent amount of antioxidants help in combatting cancer and other cardiac diseases. Additionally, diabetes and bloating can be cured with this divine fruit. Someone on a weight-loss diet should also apt it. Furthermore, Papayas help in regulating and easing the flow during menstruation. Another incredible advantage one can get from papayas is relief from stress.
-                    </p>           
-                </div>
-            </div>
-            <hr>
-            
-            <div class="post-content"data-aos="zoom-in" data-aos-delay="200">
-                    <div class="post-image">
-                        <div>
-                            <img src="./mental health.jpeg" class="img" alt="blog1">
-                        </div>
-                    <div class="post-info flex-row">
-                        <spa
-                        n>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
-                        <span>&nbsp;&nbsp;June 17,2020</span>
-                        
-                    </div>
-                </div>
-                <div class="post-title">
-                    <a href="#">Taking care of mental health</a>
-                    <p>
-                        Just like our physical health, mental fitness plays quite a significant part in our well-being. World could turn into a cringy place if it is not fed enough care. What is considered more of a taboo can unfortunately, at times, plunge us into madness, depression or can even lead to agony of suicide. However, there are certain measures that can treat your panic or depressive episodes including exercise, meditation, staying hydrated, getting enough sunshine, getting fresh air, taking a cold shower, getting at least 6 to 8 hours of sleep, and lastly, engaging your mind to maximize your productivity. Similarly, the edibles for it may include anything that inclines the dopamine level (any-thing tasty and toothsome). Because the sweetness at the end becomes the only reliable source for take-it-easy-way. After all, you have to love yourself to be a warrior of light and kindness to this world. Thus, mental and emotional peace is immensely important for a person to find the passion and fulfill the meaning of his life, and make this world a better place. 
-                    </p>
-                   
-                </div>
-            </div>
-            <hr>   
-            <div class="post-content"data-aos="zoom-in" data-aos-delay="200">
-                    <div class="post-image">
-                        <div>
-                            <img src="./womenplaceinsociety.jpeg" class="img" alt="blog1">
-                        </div>
-                    <div class="post-info flex-row">
-                        <spa
-                        n>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
-                        <span>&nbsp;&nbsp;June 16,2020</span>
-                        
-                    </div>
-                </div>
-                <div class="post-title">
-                    <a href="#">Why should boys have all the fun? It's the women who are making this world a loving place</a>
-                    <p>
-                        Women never enjoyed the prestige and footing as they stand by it now. Even in patriarchal societies, women have been out-performing their due-roles in every walk of life with their twofold productive capacity as compared to men. They deserve to be treated with utmost esteem to equip them with social, financial and matrimonial independence. Their involvement in every field of life outshines their social capabilities. Women preserve human race and are entitled to freedom of sentiments to put forward their opinions on public, legislative and religious matters. Therefore, they must be designated to pursue their passions. Without their involvement, the pace of scientific and technological development of one’s nation would be extremely compromised. The global history is full of the names of the rising stars who were eminent pundits, poets, teachers, suffis and businesswomen exiling in their respective fields. Women have been illuminating their potentials since forever in the form of Hellen Keller, Benazir Bhutto or Margaret Thatcher. Currently, these beacons of hope are Hilary Clinton, Angelina Jolie, Malala Yousafzai, Oprah Winfrey, Jane Goodall, Beyonce, Jacinda Ardern and so on. Even in digital space, they have earned a significant place by becoming influencers, fashion-stylists, makeup artists, digital creators and bloggers. In retrospect, the nations can only prosper by ensuring gender equality and women rights irrespective of their ethnic, religious or societal details.
-                    </p>
-                   
-                </div>
-            </div>
-            <hr>
-            <div class="post-content"data-aos="zoom-in" data-aos-delay="200">
-                    <div class="post-image">
-                        <div>
-                            <img src="./diet.jpeg" class="img" alt="blog1">
-                        </div>
-                    <div class="post-info flex-row">
-                        <spa
-                        n>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
-                        <span>&nbsp;&nbsp;June 10,2020</span>
-                        
-                    </div>
-                </div>
-                <div class="post-title">
-                    <a href="#">3 important dietary changes to adopt</a>
-                    <p>
-                        Refined Oils: Refined vegetable oils are processed edibles manufactured from chemical processing which makes for their nature acidic and bleached transparent color. These oils can be unhealthy for our bodies. Therefore, try using extra virgin olive oil and coconut oil, or ghee. Although saturated fats can contribute to heart diseases if the cholesterol level of the body is not regulated. But they are relatively healthier, with no side effects. White Sugar: White sugar is also known as ‘white poison’. Sugar, in its unprocessed form is present in sugarcane and beet root. It contains phosphorous, sulfur, zinc, vitamins, natural enzymes, and other trace elements. The added chemicals and the bleaching agents during its processing result in its crystal white color, while causing mineral losses. To construe it up, excess sugar intake can cause obesity and even diabetes. As an alternate to white sugar, use ‘Gurr’ or ‘Shakkar’. All-purpose White Flour: All-purpose white flour (aka maida) consists of smallest particle size and hence, minimal fibre. Consequently, it is more prone to intensify IBS and may stick to the intestinal walls, thus affecting the whole digestion process. You can use whole grain flour or chakki-aatta to substitute for a healthier living.
-                    </p>
-                   
-                </div>
-            </div>
-            <hr>
-                <div class="post-content"data-aos="zoom-in" data-aos-delay="200">
-                    <div class="post-image">
-                        <div>
-                            <img src="./skincolor.jpeg" class="img" alt="blog1">
-                        </div>
-                    <div class="post-info flex-row">
-                        <span>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
-                        <span>&nbsp;&nbsp;June 8,2020</span>
-                        
-                    </div>
-                </div>
-                <div class="post-title">
-                    <a href="#">We are more than our skin color</a>
-                    <p>
-                        Our everlasting lust for skin whiteness has originated from prehistoric colonial times. As a result, many individuals in our societies, especially females, are fed with a burden of attaining white skin tone at the risk of identity crisis. To address our complex for darker skin, we have been advertising makeup products or cosmetics with an intention to lighten our original skin color. Is to remember that the brownness of our skin is a blessing in disguise as our melanin production is a natural process of shielding our skin. Each of us has been blessed with the best of our features. And as far as the makeup is concerned, it should only be done to enhance your features or modify our looks with elegance. To whiten the skin tone is a fallacy. Excess of anything is unnecessary and futile. Still, many of our beauty clinics and salons, including the skin-whitening industry, have overlooked this aspect. They prey on the insecurities of their customers, loot them and rob them of their identities. Therefore, it is important to teach our children that they are beautiful no matter what their skin color is. We have to create awareness on the concept of “being you.” So why should not we praise Almighty for what we are born with, rather than pretending to be what we are not!.
-                    </p>
-                   
-                </div>
-            </div>
-            <hr>
-                <div class="post-content"data-aos="zoom-in" data-aos-delay="200">
-                    <div class="post-image">
-                        <div>
-                            <img src="./greatness.jpeg" class="img" alt="blog2">
-                        </div>
-                    <div class="post-info flex-row">
-                        <span>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
-                        <span>&nbsp;&nbsp;June 7,2020</span>
-                        <!--<span>7 comments</span>-->
-                    </div>
-                </div>
-                <div class="post-title">
-                    <a href="#">How to achieve greatness</a>
-                    <p>
-                        Man is a product of information stored in his genes. Our genotype defines our core characteristics that we have no ability to alter. On the flip side, our apparent bodily traits that may be influenced by the nature and nurture is what we call phenotype. A great person is neither he, who defines himself by his materialistic wealth. Nor he, who compares himself with the others. But the one who has great sense of vision. Thus, greatness is not specific or limited to anyone but occupies a commonplace for all. Because all are blessed with potentials and instincts that could be best utilized via gratitude. If you have nothing to be grateful for, just feel the heartbeat. What is it? It is life. This life and the cardia that can sense it, it is your greatness, and this provoking feeling is absolutely mesmerizing! So let’s inquire about the steps towards greatness. 
-Answer is, it begins when you transform yourself from animalhood to manhood.
+        <section class="container">
+            <div class="site-content">
+                <div class="posts">
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+                                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+                                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
 
-                    </p>
-                 
-                </div>
-            </div>
-            <hr>
-                <div class="post-content"data-aos="zoom-in" data-aos-delay="200">
-                    <div class="post-image">
-                        <div>
-                            <img src="./perception.jpeg" class="img" alt="blog3">
-                        </div>
-                    <div class="post-info flex-row">
-                        <span>&nbsp;&nbsp;Posted by: Eman shaikh </span>
-                        <span>&nbsp;&nbsp;June 06,2020</span>
-                        
-                    </div>
-                </div>
-                <div class="post-title">
-                    <a href="#">Perception controls life</a>
-                    <p>
-                        Everybody has the power of imagination. Your thoughts behold reality and your reality determines your destiny. As you dive deeper into the roots of law of attraction, you realize that your perception derives your genetic code, thereby controlling your life. No two witted people can see the world in the same way. Their perceptions can be accurate or inaccurate, authentic or unauthentic, thus it is more on target to say that belief controls biology. Your beliefs create your life. As it is said that:
-	“You create everything that happens to you.” –Jack Canfield
-People who passionately long for their dreams are the ones who transform them into reality. If you choose to be happy, you amplify your happiness and vibrate at such a frequency that generates influence on the people around you with your happy aura. 
- On the flip side, obsessing on the negative energies ultimately constructs sickness or a gloomy world for you. Your belief is the only thing that works on the inside and on the outside. Hence, it is suffice to say that you are not the victim of your genetics. You are responsible for what unfolds in your life.
+                                <img src="./diet.jpeg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
+                                <span>&nbsp;&nbsp;June 15,2020</span>
 
-                    </p>
-                    
-                </div>
-            </div>
-            <div class="post-content"data-aos="zoom-in" data-aos-delay="200">
-                <div class="post-image">
-                    <div>
-                        <img src="./smallscalebusiness.jpeg" class="img" alt="blog1">
-                    </div>
-                <div class="post-info flex-row">
-                    <span>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
-                    <span>&nbsp;&nbsp;June 5,2020</span>
-                    
-                </div>
-            </div>
-            <div class="post-title">
-                <a href="#">Supporting small-scale businesses</a>
-                <p>
-                    There is a pressing need to educate masses regarding supporting small-scale businesses as they constitute a major share of the economy. Small scale industries should be reinforced and promoted to encourage and financially support the businessmen to increase their productivity and help them expand their line of work. This way, the market remains regulated and affordable for consumers belonging to each and every socioeconomic segment. Additionally, the stability of a local business is directly related with its reach, sales and profit earned. Initiating from the scratch, with limited resources and capital to sustain long-term, these businesses are more prone to collapse if not supported. Hence, they have to work harder to attain limelight and grab audience in the market. The important thing is that unlike lavish designer brands that loot their clients at triple rates and preach an extravagant lifestyle, small-scale businesses charge way less and target a wider population. Let us all educate ourselves with the idea of simpler living and need-based worthwhile shopping experience that benefits not only the clients, but facilitates the entrepreneurs to fuel up their business spaces.
-                </p>
-               
-            </div>
-        </div>
-        <hr>
-           
-        </div>
-        <aside class="sidebar">
-            <div class="category">
-                <h2>Category</h2>
-                <ul class="category-list">
-                    <li class="list-items"data-aos="fade-left" data-aos-delay="100">
-                        <a href="#">Psychology</a>
-                        <span>(00)</span>
-                    </li>
-                    <li class="list-items"data-aos="fade-left" data-aos-delay="200">
-                        <a href="#">Health</a>
-                        <span>(00)</span>
-                    </li>
-                    <li class="list-items"data-aos="fade-left" data-aos-delay="200">
-                        <a href="#">Nutrition</a>
-                        <span>(00)</span>
-                    </li>
-                    <li class="list-items"data-aos="fade-left" data-aos-delay="300">
-                        <a href="#">Entertainment</a>
-                        <span>(00)</span>
-                    </li>
-                    
-                </ul>
-            </div>
-                
-            <div class="post-content"data-aos="flip-up" data-aos-delay="500">
-                <div class="post-content">
-                    <div class="post-image">
-                        <div>
-                            <img src="./uber.jpg" class="img" alt="blog3">
-                        </div>
-                    <div class="post-info flex-row">
-                        
-                        <span></i>&nbsp;&nbsp;July 28,2020</span>
-                        
-                    </div>
-                </div>
-                <div class="post-title">
-                    <a href="#"> Uber boat is to be launched in London </a>
-                    <a href="https://www.theguardian.com/technology/2020/jul/08/uber-to-launch-london-commuter-boat-service-with-thames-clippers"target="_black"> Click Here  </a>
-                    
-                </div>
-            </div>
-            </div>
-                
-            <div class="post-content"data-aos="flip-up" data-aos-delay="500">
-                <div class="post-content">
-                    <div class="post-image">
-                        <div>
-                            <img src="./Signals.jpg" class="img" alt="blog3">
-                        </div>
-                    <div class="post-info flex-row">
-                        
-                        <span></i>&nbsp;&nbsp;July 15,2020</span>
-                        
-                    </div>
-                </div>
-                <div class="post-title">
-                    <a href="#"> 23 July, 1962 - First live transatlantic television signal relayed  </a>
-                    <a href="https://www.history.com/news/the-birth-of-satellite-tv-50-years-ago"target="_black"> Click Here  </a>
-                    
-                </div>
-            </div>
-            </div>
-                
-                <div class="post-content"data-aos="flip-up" data-aos-delay="500">
-                    <div class="post-content">
-                        <div class="post-image">
-                            <div>
-                                <img src="./aliciakeys.jpg" class="img" alt="blog3">
                             </div>
-                        <div class="post-info flex-row">
-                            
-                            <span></i>&nbsp;&nbsp;June 20,2020</span>
-                            
                         </div>
-                    </div>
-                    <div class="post-title">
-                        <a href="#"> Alicia Keys hopes to change the use of offensive language in music </a>
-                        <a href="https://en.wikipedia.org/wiki/Alicia_Keys"target="_black"> Click Here  </a>
-                        
-                    </div>
-                </div>
-                </div>
-                
-                <div class="post-content"data-aos="flip-up" data-aos-delay="500">
-                    <div class="post-content">
-                        <div class="post-image">
-                            <div>
-                                <img src="./madihaimam.jpg" class="img" alt="blog3">
-                            </div>
-                        <div class="post-info flex-row">
-                            
-                            <span></i>&nbsp;&nbsp;June 15,2020</span>
-                            
-                        </div>
-                    </div>
-                    <div class="post-title">
-                        <a href="#">Madiha Imam and Muneeb Butt are gearing up for the drama on domestic abuse </a>
-                        <a href="https://images.dawn.com/news/1185501"target="_black"> Click Here  </a>
-                        
-                    </div>
-                </div>
-                </div>
-                
-                <div class="post-content"data-aos="flip-up" data-aos-delay="500">
-                    <div class="post-content">
-                        <div class="post-image">
-                            <div>
-                                <img src="./asim jofa.jpg" class="img" alt="blog3">
-                            </div>
-                        <div class="post-info flex-row">
-                            
-                            <span></i>&nbsp;&nbsp;June 07,2020</span>
-                            
-                        </div>
-                    </div>
-                    <div class="post-title">
-                        <a href="#">Cotton uniforms should be produced for security guards and other workers </a>
-                        
-                    </div>
-                </div>
-                </div>
-                
-                <div class="post-content"data-aos="flip-up" data-aos-delay="500">
-                    <div class="post-content">
-                        <div class="post-image">
-                            <div>
-                                <img src="./londonreal.jpeg" class="img" alt="blog3">
-                            </div>
-                        <div class="post-info flex-row">
-                            
-                            <span></i>&nbsp;&nbsp;June 05,2020</span>
-                            
-                        </div>
-                    </div>
-                    <div class="post-title">
-                        <a href="#">David Icke highlights censored facts as opposed to the mainstream media. To join global awareness movement  </a>
-                        <a href="https://freedomplatform.londonreal.tv/rose-icke-iv-we-will-not-be-silenced/"target="_black"> Click Here  </a>
-                        
-                    </div>
-                </div>
-                </div>
-                
-                <div class="post-content"data-aos="flip-up" data-aos-delay="500">
-                    <div class="post-content">
-                        <div class="post-image">
-                            <div>
-                                <img src="./gold mask.jpg" class="img" alt="blog3">
-                            </div>
-                        <div class="post-info flex-row">
-                            
-                            <span></i>&nbsp;&nbsp;June 01,2020</span>
-                            
-                        </div>
-                    </div>
-                    <div class="post-title">
-                        <a href="#">Indian man wears $4,000 gold face mask during corona virus pandemic </a>
-                </div>
-                </div>
-                
-                <div class="post-content"data-aos="flip-up" data-aos-delay="200">
-                    <div class="post-content">
-                        <div class="post-image">
-                            <div>
-                                <img src="./mahira.jpg" class="img" alt="blog3">
-                            </div>
-                        <div class="post-info flex-row">
-                            
-                            <span>&nbsp;&nbsp;May 27,2020</span>
-                            <!--<span>5 comments</span>-->
-                        </div>
-                    </div>
-                    <div class="post-title">
-                        <a href="#">Mahira Khan is in love with Salim!</a>
-                        
-                    </div>
-                    </div>
-                </div>
-                <div class="post-content"data-aos="flip-up" data-aos-delay="300">
-                    <div class="post-content">
-                        <div class="post-image">
-                            <div>
-                                <img src="./samina baig.jpg" class="img" alt="blog3">
-                            </div>
-                        <div class="post-info flex-row">
-                            
-                            <span>&nbsp;&nbsp;May 25,2020</span>
-                            
-                        </div>
-                    </div>
-                    <div class="post-title">
-                        <a href="#">Samina Baig, the first Pakistani woman to scale Mt. Everest has been appointed the Minister for Tourism as part of the part of the caretaker setup in Gilgit Baltistan </a>
-                    </div>
-                </div>
-                </div>
-                <div class="post-content"data-aos="flip-up" data-aos-delay="400">
-                    <div class="post-content">
-                        <div class="post-image">
-                            <div>
-                                <img src="./newzealanddollar.png" class="img" alt="blog3">
-                            </div>
-                        <div class="post-info flex-row">
-                            
-                            <span></i>&nbsp;&nbsp;May 21,2020</span>
-                            
-                        </div>
-                    </div>
-                    <div class="post-title">
-                        <a href="#">On july, 1967 - New Zealand replaced pound with dollar  </a>
-                        
-                    </div>
-                </div>
-                </div>
-                <div class="post-content"data-aos="flip-up" data-aos-delay="200">
-                    <div class="post-content">
-                        <div class="post-image">
-                            <div>
-                                <img src="./manshapasha.jpg" class="img" alt="blog3">
-                            </div>
-                        <div class="post-info flex-row">
-                            
-                            <span>&nbsp;&nbsp;May 20,2020</span>
-                            <!--<span>5 comments</span>-->
-                        </div>
-                    </div>
-                    <div class="post-title">
-                        <a href="#">"There is definitely a disbalance. The thing is that male actors will say that demale actors get better roles , which is true. Women get more diverse roles whereas men mostly have the typical torturer part. However, men definitely get paid more than an actress who is at the same level as them. There's definitely a lot of factors behind it including the supply and demand of male actors but for now, this is the reality." -Mansha Pasha  </a>
-                        
-                    </div>
-                    </div>
-                </div>
-            </div>
+                        <div class="post-title">
+                            <a href="#">3 important dietary changes to adopt</a>
+                            <p>
+                                Refined Oils: Refined vegetable oils are processed edibles manufactured from chemical processing which makes for their nature acidic and bleached transparent color. These oils can be unhealthy for our bodies.<span id="dots1">...</span>
+                                <span id="more1" style="display: none;"> Therefore, try using extra virgin olive oil and
+                                    coconut oil, or ghee. Although saturated fats can contribute to heart diseases if
+                                    the cholesterol level of the body is not regulated. But they are relatively
+                                    healthier, with
+                                    no side effects. White Sugar: White sugar is also known as ‘white poison’. Sugar, in
+                                    its unprocessed form is present in sugarcane and beet root. It contains phosphorous,
+                                    sulfur, zinc, vitamins, natural enzymes, and
+                                    other trace elements. The added chemicals and the bleaching agents during its
+                                    processing result in its crystal white color, while causing mineral losses. To
+                                    construe it up, excess sugar intake can cause obesity and
+                                    even diabetes. As an alternate to white sugar, use ‘Gurr’ or ‘Shakkar’. All-purpose
+                                    White Flour: All-purpose white flour (aka maida) consists of smallest particle size
+                                    and hence, minimal fibre. Consequently, it is more
+                                    prone to intensify IBS and may stick to the intestinal walls, thus affecting the
+                                    whole digestion process. You can use whole grain flour or chakki-aatta to substitute
+                                    for a healthier living.</span>
+                                <button class="btn btn-outline-primary" id="button1" onclick="read1()">Read
+                                    More</button>
 
-            <div class="newsletter"data-aos="fade-up" data-aos-delay="300">
-                <h2>Newsletter</h2>
-                <div class="form-element">
-                    <input type="text" class="input-element" placeholder="Email">
-                    <button class="btn form-btn">Subscribe</button>
-                </div>
-            </div>
-            <div class="popular-tags">
-                <h2>Popular Tags</h2>
-                <div class="tags" >
-                    <span class="tag flex-row"data-aos="flip-up" data-aos-delay="100">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;News</span>
-                    <span class="tag flex-row"data-aos="flip-up" data-aos-delay="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Media</span>
-                    <span class="tag flex-row"data-aos="flip-up" data-aos-delay="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nutrition</span>
-                    <span class="tag flex-row"data-aos="flip-up" data-aos-delay="100">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mental health</span>
-                    <span class="tag flex-row"data-aos="flip-up" data-aos-delay="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Awareness</span>
-                    <span class="tag flex-row"data-aos="flip-up" data-aos-delay="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Global events</span>
-                    <span class="tag flex-row"data-aos="flip-up" data-aos-delay="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learning</span>
-                   
-                    </div>
-                </div>
-            </aside>
-        </div>
-    </section>
+                            </p>
 
-    <!--------------x------Site Content----------x-->
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./mental health.jpeg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
+                                <span>&nbsp;&nbsp;June 12,2020</span>
+
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Taking care of mental health</a>
+                            <p>
+                                Just like our physical health, mental fitness plays quite a significant part in our well-being. World could turn into a cringy place if it is not fed enough care.<span id="dots">...</span><span id="more" style="display: none;"> What is considered more
+                                    of a taboo can unfortunately, at times, plunge us into madness,
+                                    depression or can even lead to agony of suicide. However, there are certain measures
+                                    that can treat your panic or depressive episodes including exercise, meditation,
+                                    staying hydrated, getting enough sunshine, getting fresh
+                                    air, taking a cold shower, getting at least 6 to 8 hours of sleep, and lastly,
+                                    engaging your mind to maximize your productivity. Similarly, the edibles for it may
+                                    include anything that inclines the dopamine level (any-thing
+                                    tasty and toothsome). Because the sweetness at the end becomes the only reliable
+                                    source for take-it-easy-way. After all, you have to love yourself to be a warrior of
+                                    light and kindness to this world. Thus, mental and emotional
+                                    peace is immensely important for a person to find the passion and fulfill the
+                                    meaning of his life, and make this world a better place.
+                                </span>
+                                <button class="btn btn-outline-primary" id="button" onclick="read()">Read More</button>
+
+                            </p>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./womenplaceinsociety.jpeg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
+                                <span>&nbsp;&nbsp;June 9,2020</span>
+
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Why should boys have all the fun? It's the women who are making this world a
+                                loving place</a>
+                            <p>
+                                Women never enjoyed the prestige and footing as they stand by it now. Even in patriarchal societies, women have been out-performing their due-roles in every walk of life with their <span id="dots2">...</span>
+                                <span id="more2" style="display: none;">twofold productive capacity as compared to men.
+                                    They deserve to be treated with utmost esteem to equip them with social, financial
+                                    and matrimonial independence. Their involvement in every field of life outshines
+                                    their social
+                                    capabilities. Women preserve human race and are entitled to freedom of sentiments to
+                                    put forward their opinions on public, legislative and religious matters. Therefore,
+                                    they must be designated to pursue their passions.
+                                    Without their involvement, the pace of scientific and technological development of
+                                    one’s nation would be extremely compromised. The global history is full of the names
+                                    of the rising stars who were eminent pundits, poets,
+                                    teachers, suffis and businesswomen exiling in their respective fields. Women have
+                                    been illuminating their potentials since forever in the form of Hellen Keller,
+                                    Benazir Bhutto or Margaret Thatcher. Currently, these
+                                    beacons of hope are Hilary Clinton, Angelina Jolie, Malala Yousafzai, Oprah Winfrey,
+                                    Jane Goodall, Beyonce, Jacinda Ardern and so on. Even in digital space, they have
+                                    earned a significant place by becoming influencers,
+                                    fashion-stylists, makeup artists, digital creators and bloggers. In retrospect, the
+                                    nations can only prosper by ensuring gender equality and women rights irrespective
+                                    of their ethnic, religious or societal details.
+                                </span>
+                                <button class="btn btn-outline-primary" id="button2" onclick="read2()">Read
+                                    More</button>
+
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./skincolor.jpeg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
+                                <span>&nbsp;&nbsp;June 8,2020</span>
+
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">We are more than our skin color</a>
+                            <p>
+                                Our everlasting lust for skin whiteness has originated from prehistoric colonial times. As a result, many individuals in our societies,<span id="dots3">...</span>
+                                <span id="more3" style="display: none;"> especially females, are fed with a burden of
+                                    attaining white skin tone at the risk of identity crisis. To address our
+                                    complex for darker skin, we have been advertising makeup products or cosmetics with
+                                    an intention to lighten our original skin color. Is to remember that the brownness
+                                    of our skin is a blessing in disguise as our melanin
+                                    production is anatural process of shielding our skin. Each of us has been blessed
+                                    with the best of our features. And as far as the makeup is concerned, it should only
+                                    be done to enhance your features or modify our looks
+                                    with elegance. To whiten the skin tone is a fallacy. Excess of anything is
+                                    unnecessary and futile. Still, many of our beauty clinics and salons, including the
+                                    skin-whitening industry, have overlooked this aspect. They prey
+                                    on the insecurities of their customers, loot them and rob them of their identities.
+                                    Therefore, it is important to teach our children that they are beautiful no matter
+                                    what their skin color is. We have to create awareness
+                                    on the concept of “being you.” So why should not we praise Almighty for what we are
+                                    born with, rather than pretending to be what we are not!.</span>
+                                <button class="btn btn-outline-primary" id="button3" onclick="read3()">Read
+                                    More</button>
+
+                            </p>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./greatness.jpeg" class="img" alt="blog2">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
+                                <span>&nbsp;&nbsp;June 7,2020</span>
+                                <!--<span>7 comments</span>-->
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">How to achieve greatness</a>
+                            <p>
+                                Man is a product of information stored in his genes. Our genotype defines our core characteristics that we have no ability to alter. On the <span id="dots4">...</span>
+                                <span id="more4" style="display: none;"> flip side, our apparent bodily traits that may
+                                    be influenced by the nature and nurture is what we call phenotype.
+                                    A great person is neither he, who defines himself by his materialistic wealth. Nor
+                                    he, who compares himself with the others. But the one who has great sense of vision.
+                                    Thus, greatness is not specific or limited to anyone
+                                    but occupies a commonplace for all. Because all are blessed with potentials and
+                                    instincts that could be best utilized via gratitude. If you have nothing to be
+                                    grateful for, just feel the heartbeat. What is it? It is life.
+                                    This life and the cardia that can sense it, it is your greatness, and this provoking
+                                    feeling is absolutely mesmerizing! So let’s inquire about the steps towards
+                                    greatness. Answer is, it begins when you transform yourself
+                                    from animalhood to manhood.</span>
+                                <button class="btn btn-outline-primary" id="button4" onclick="read4()">Read
+                                    More</button>
+
+                            </p>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./perception.jpeg" class="img" alt="blog3">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span>&nbsp;&nbsp;Posted by: Eman shaikh </span>
+                                <span>&nbsp;&nbsp;June 06,2020</span>
+
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Perception controls life</a>
+                            <p>
+                                Everybody has the power of imagination. Your thoughts behold reality and your reality determines your destiny. As you dive deeper <span id="dots5">...</span>
+                                <span id="more5" style="display: none;"> into the roots of law of attraction, you
+                                    realize that your perception derives your genetic code, thereby controlling your
+                                    life. No two witted people can see the world in the same way. Their perceptions can
+                                    be accurate or inaccurate, authentic or unauthentic, thus it is more on target to
+                                    say that belief controls biology. Your beliefs create
+                                    your life. As it is said that: “You create everything that happens to you.” –Jack
+                                    Canfield People who passionately long for their dreams are the ones who transform
+                                    them into reality. If you choose to be happy, you amplify
+                                    your happiness and vibrate at such a frequency that generates influence on the
+                                    people around you with your happy aura. On the flip side, obsessing on the negative
+                                    energies ultimately constructs sickness or a gloomy world
+                                    for you. Your belief is the only thing that works on the inside and on the outside.
+                                    Hence, it is suffice to say that you are not the victim of your genetics. You are
+                                    responsible for what unfolds in your life.</span>
+                                <button class="btn btn-outline-primary" id="button5" onclick="read5()">Read
+                                    More</button>
+
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./smallscalebusiness.jpeg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
+                                <span>&nbsp;&nbsp;June 5,2020</span>
+
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Supporting small-scale businesses</a>
+                            <p>
+                                There is a pressing need to educate masses regarding supporting small-scale businesses as they constitute a major share of the economy. Small <span id="dots6">...</span>
+                                <span id="more6" style="display: none;">scale industries should be reinforced and
+                                    promoted to encourage and financially support the businessmen to increase
+                                    their productivity and help them expand their line of work. This way, the market
+                                    remains regulated and affordable for consumers belonging to each and every
+                                    socioeconomic segment. Additionally, the stability of a local business
+                                    is directly related with its reach, sales and profit earned. Initiating from the
+                                    scratch, with limited resources and capital to sustain long-term, these businesses
+                                    are more prone to collapse if not supported. Hence, they
+                                    have to work harder to attain limelight and grab audience in the market. The
+                                    important thing is that unlike lavish designer brands that loot their clients at
+                                    triple rates and preach an extravagant lifestyle, small-scale
+                                    businesses charge way less and target a wider population. Let us all educate
+                                    ourselves with the idea of simpler living and need-based worthwhile shopping
+                                    experience that benefits not only the clients, but facilitates the
+                                    entrepreneurs to fuel up their business spaces.
+                                </span>
+                                <button class="btn btn-outline-primary" id="button6" onclick="read6()">Read
+                                    More</button>
+
+                            </p>
+
+                        </div>
+                    </div>
+                    <hr>
+
+                </div>
+                <aside class="sidebar">
+                    <div class="category">
+                        <h2>Category</h2>
+                        <ul class="category-list">
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="100">
+                                <a href="./learning.html">Learning</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./psychology.html">Psychology</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./nutrition.html">Nutrition</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./fashion.html">Fashion</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./health.html">Health</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./entertainment.html">Entertainment</a>
+                                <span>(00)</span>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="popular-post">
+                        <h2>Trending</h2>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="500">
+                            <div class="post-content">
+                                <div class="post-image">
+                                    <div>
+                                        <img src="./londonreal.jpeg" class="img" alt="blog3">
+                                    </div>
+                                    <div class="post-info flex-row">
+
+                                        <span></i>&nbsp;&nbsp;May 20,2020</span>
+
+                                    </div>
+                                </div>
+                                <div class="post-title">
+                                    <a href="#">David Icke highlights censored facts as opposed to the mainstream media.
+                                        To join global awareness movement </a>
+                                    <a href="https://freedomplatform.londonreal.tv/rose-icke-iv-we-will-not-be-silenced/" target="_black"> Click Here </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="200">
+                            <div class="post-content">
+                                <div class="post-image">
+                                    <div>
+                                        <img src="./sushant.jpg" class="img" alt="blog3">
+                                    </div>
+                                    <div class="post-info flex-row">
+
+                                        <span>&nbsp;&nbsp;May 20,2020</span>
+                                        <!--<span>5 comments</span>-->
+                                    </div>
+                                </div>
+                                <div class="post-title">
+                                    <a href="#">Bollywood actor 'Sushant Singh Rajput' commits suicide at the age of 34.
+                                        His death raises a question mark on the mental health stigma prevalent in the
+                                        South Asia</a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="200">
+                            <div class="post-content">
+                                <div class="post-image">
+                                    <div>
+                                        <img src="./mahira.jpg" class="img" alt="blog3">
+                                    </div>
+                                    <div class="post-info flex-row">
+
+                                        <span>&nbsp;&nbsp;May 22,2020</span>
+                                        <!--<span>5 comments</span>-->
+                                    </div>
+                                </div>
+                                <div class="post-title">
+                                    <a href="#">Mahira Khan is in love with Salim!</a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="300">
+                            <div class="post-content">
+                                <div class="post-image">
+                                    <div>
+                                        <img src="./contest.jpeg" class="img" alt="blog3">
+                                    </div>
+                                    <div class="post-info flex-row">
+
+                                        <span>&nbsp;&nbsp;May 20,2020</span>
+
+                                    </div>
+                                </div>
+                                <div class="post-title">
+                                    <a href="#">Candidates upto 18 years of age can participate in this contest. Visit
+                                        'thercs.org' for more details</a>
+                                    <a href="https://www.thercs.org/?__cf_chl_jschl_tk__=2a494f46d078a8e0086cf1513bb07a1ab9599e3b-1593118613-0-AWG44f-Ri0XqKzsH5RCeFcSHas9GEgGEP0ZZJPOpy-5wAU6H8jfMYBRJjIOR9bjaSX7UyAgjfhi3iM5-zqv1s9RfevvDYqzZsW8osRSm553H_EIfyjbmZdP5F1S3-5iNYvko28GonfpDjU80HHlKg26zgEoS_EsFdC-KUOgbpOb5jeUhXh0DKvdT4NG0-RzG9Z-SX8FhKJu5BWeIn58W3kFeEIcR3Tm0HOiMPg8KChfj7xWOowm4xUPykQDR5Lz-zWlFPOenbhH-zXwP9qei_sZkMw4cBYa4ySxPwRLSt2PQAILbq-1-GSxPMSkU7gOEkMyY0YrIqQcFGRTzDM9Frc4"
+                                        target="_black"> Click Here </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="400">
+                            <div class="post-content">
+                                <div class="post-image">
+                                    <div>
+                                        <img src="./animal.jpeg" class="img" alt="blog3">
+                                    </div>
+                                    <div class="post-info flex-row">
+
+                                        <span></i>&nbsp;&nbsp;May 20,2020</span>
+
+                                    </div>
+                                </div>
+                                <div class="post-title">
+                                    <a href="#">Participate in article writing contest about animal agriculture. For
+                                        details check Instagram handle @animalagricultureclimatechange </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="newsletter" data-aos="fade-up" data-aos-delay="300">
+                        <h2>Newsletter</h2>
+                        <form action="#" method=" post ">
+
+                            <div class="form-element ">
+
+                                <input type="text " class="input-element " id="email " name="email " placeholder="Email ">
+                                <button type="submit " name="submit " class="btn form-btn ">Subscribe</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <div class="popular-tags ">
+                        <h2>Popular Tags</h2>
+                        <div class="tags ">
+                            <span class="tag flex-row " data-aos="flip-up " data-aos-delay="100 ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;News</span>
+                            <span class="tag flex-row " data-aos="flip-up " data-aos-delay="200 ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Media</span>
+                            <span class="tag flex-row " data-aos="flip-up " data-aos-delay="200 ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nutrition</span>
+                            <span class="tag flex-row " data-aos="flip-up " data-aos-delay="100 ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mental
+                                health</span>
+                            <span class="tag flex-row " data-aos="flip-up " data-aos-delay="200 ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Awareness</span>
+                            <span class="tag flex-row " data-aos="flip-up " data-aos-delay="200 ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Global
+                                events</span>
+                            <span class="tag flex-row " data-aos="flip-up " data-aos-delay="200 ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learning</span>
+
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!--------------x------Site Content----------x-->
 
     </main>
-    
+
 
     <!-----x-- Main Site Section---------x----->
 
-</------------------------Footer-------------------/>
+    </------------------------Footer------------------- />
 
-<footer class="footer">
-    <div class="container">
-        <div class="about-us"data-aos="fade-right" data-aos-delay="200">
-            <h2>About us</h2>
-            <p> Welcome to Wordophic!
-                It is the brainchild of Adnan Khan and Eman Ahmad Shaikh which highlights different flavors of life. As far as its journey is concerned, Wordophic commenced when we identified the lack of space for writers and prosers in publishing industry.
-                "I once tried to publish a magazine but didn't know the publication process." -Eman Ahmad Shaikh.
-                This idea popped up the next significant step of Wordophic in mind. It took some days in research to grow Pakistan's online ecosystem. Wordophic has dogged belief that the right to be published should not be fourwalled or limited upto certain writing topics but to be secular in writings. So the contents are written by our in-house team which showcases its work and beget healthy discussions. Wordophic also helps students master public writing signature, building self-esteem and learn about literature and narration.
-                .</p>
-        </div>
-        <div class="instagram"data-aos="fade-left" data-aos-delay="200">
-            <h2>Instagram</h2>
-            <div class="flex-row">
-                <img src="./blogpost1.jpg" alt="insta1">
-                <img src="./miss_eman.png" alt="insta2">
-                <img src="./photo-of-audi-parked-near-trees-1402787.jpg" alt="insta3">
-                
+    <footer class="footer ">
+        <div class="container ">
+            <div class="about-us " data-aos="fade-right " data-aos-delay="200 ">
+                <h2>About us</h2>
+                <p> Welcome to Wordophic! It is the brainchild of Adnan Khan and Eman Ahmad Shaikh which highlights different flavors of life. As far as its journey is concerned, Wordophic commenced when we identified the lack of space for writers and prosers
+                    in publishing industry. "I once tried to publish a magazine but didn 't know the publication process." -Eman Ahmad Shaikh. This idea popped up the next significant step of Wordophic in mind. It took some days in research to grow Pakistan's
+                    online ecosystem. Wordophic has dogged belief that the right to be published should not be fourwalled or limited upto certain writing topics but to be secular in writings. So the contents are written by our in-house team which showcases
+                    its work and beget healthy discussions. Wordophic also helps students master public writing signature, building self-esteem and learn about literature and narration. . </p>
             </div>
-            <div class="flex-row">
-                <img src="./blogpost2.jpg" alt="insta4">
-                <img src="./blogpost5.jpg" alt="insta5">
-                <img src="./blogpost6.jpg" alt="insta6">
-                
+            <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+                <h2>Instagram</h2>
+                <div class="flex-row">
+                    <img src="./blogpost1.jpg" alt="insta1">
+                    <img src="./miss_eman.png" alt="insta2">
+                    <img src="./photo-of-audi-parked-near-trees-1402787.jpg" alt="insta3">
+
+                </div>
+                <div class="flex-row">
+                    <img src="./blogpost2.jpg" alt="insta4">
+                    <img src="./blogpost5.jpg" alt="insta5">
+                    <img src="./blogpost6.jpg" alt="insta6">
+
+                </div>
             </div>
-            </div>
-            <div class="follow"data-aos="fade-left" data-aos-delay="200">
-            <h2>Follow us</h2>
-            <p>Let us be social</p>
-            <div>
-                <a href="https://instagram.com/3man_shaikh?igshid=eybw92nu29iu"target="_black"> Click Here to Follow Us on Instagram </a>
-                 </a> 
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Follow us</h2>
+                <p>Let us be social</p>
+                <div>
+                    <a href="https://instagram.com/3man_shaikh?igshid=eybw92nu29iu" target="_black"> Click Here to
+                        Follow Us on Instagram </a>
+                    </a>
                 </div>
             </div>
         </div>
         <div class="rights flex-row">
             <h4 class="text-gray"></h4>
-            Copyright ©2020 All rights reserved | made with love for Wordophic by   &nbsp
-            <a href="https://instagram.com/adnankhan194?igshid=eybw92nu29iu"target="_black"> Adnan Khan  </a>
-                
+            Copyright ©2020 All rights reserved | made with love for Wordophic by &nbsp
+            <a href="https://instagram.com/adnankhan194?igshid=eybw92nu29iu" target="_black"> Adnan Khan </a>
+
         </div>
         <div class="move-up">
             <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
         </div>
-        
-        
+
+
         </div>
-        
-</footer>
+
+    </footer>
 
 
-</------------x-----------Footer--------------x----/>
+    </------------x-----------Footer--------------x---- />
     <!--Jquery Library File-->
     <script src="./Jquery3.5.1.min.js"></script>
 
-    
-<!-----------------Owl-Carousel js-------->
-<script src="./owl.carousel.min.js"></script>
 
-<!-------------------AOS js Library--------------->
-<script src="./aos.js"></script>
+    <!-----------------Owl-Carousel js-------->
+    <script src="./owl.carousel.min.js"></script>
+
+    <!-------------------AOS js Library--------------->
+    <script src="./aos.js"></script>
 
     <!--Custom Javascript-->
 
     <script src="./main.js"></script>
 </body>
+
 </html>
