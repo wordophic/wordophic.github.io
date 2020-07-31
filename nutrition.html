@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169400093-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-169400093-2');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordophic</title>
+    <!-- Font Awesome icons-->
+    <link rel="stylesheet" href="./all.css">
+
+    <!-----------------Owl-Carousel-------->
+    <link rel="stylesheet" href="./owl.carousel.min.css">
+    <link rel="stylesheet" href="./owl.theme.default.min.css">
+
+    <!-------------------AOS Library--------------->
+    <link rel="stylesheet" href="./aos.css">
+
+    <!-- Custom Style-->
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+<style>
+    .dropbtn {
+        font-size: 16px;
+        border: none;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: black;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px transparent;
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: flex;
+    }
+    
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+    
+    .screen {
+        padding-bottom: 50px;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .screen {
+            padding-bottom: 500px;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    }
+    /* @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+        .screen {
+            padding-bottom: 50px;
+        }
+    } */
+    /* @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+        .screen {
+            padding-bottom: 50px;
+        }
+    } */
+</style>
+<script type="text/javascript">
+    var i = 0;
+
+    function read() {
+        if (!i) {
+            document.getElementById("more").style.display = "inline";
+            document.getElementById("dots").style.display = "none";
+            document.getElementById("button").style.display = "inline";
+            document.getElementById("button").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more").style.display = "none";
+            document.getElementById("dots").style.display = "inline";
+            document.getElementById("button").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read1() {
+        if (!i) {
+            document.getElementById("more1").style.display = "inline";
+            document.getElementById("dots1").style.display = "none";
+            document.getElementById("button1").style.display = "inline";
+            document.getElementById("button1").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more1").style.display = "none";
+            document.getElementById("dots1").style.display = "inline";
+            document.getElementById("button1").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read2() {
+        if (!i) {
+            document.getElementById("more2").style.display = "inline";
+            document.getElementById("dots2").style.display = "none";
+            document.getElementById("button2").style.display = "inline";
+            document.getElementById("button2").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more2").style.display = "none";
+            document.getElementById("dots2").style.display = "inline";
+            document.getElementById("button2").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read3() {
+        if (!i) {
+            document.getElementById("more3").style.display = "inline";
+            document.getElementById("dots3").style.display = "none";
+            document.getElementById("button3").style.display = "inline";
+            document.getElementById("button3").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more3").style.display = "none";
+            document.getElementById("dots3").style.display = "inline";
+            document.getElementById("button3").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read4() {
+        if (!i) {
+            document.getElementById("more4").style.display = "inline";
+            document.getElementById("dots4").style.display = "none";
+            document.getElementById("button4").style.display = "inline";
+            document.getElementById("button4").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more4").style.display = "none";
+            document.getElementById("dots4").style.display = "inline";
+            document.getElementById("button4").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read5() {
+        if (!i) {
+            document.getElementById("more5").style.display = "inline";
+            document.getElementById("dots5").style.display = "none";
+            document.getElementById("button5").style.display = "inline";
+            document.getElementById("button5").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more5").style.display = "none";
+            document.getElementById("dots5").style.display = "inline";
+            document.getElementById("button5").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read6() {
+        if (!i) {
+            document.getElementById("more6").style.display = "inline";
+            document.getElementById("dots6").style.display = "none";
+            document.getElementById("button6").style.display = "inline";
+            document.getElementById("button6").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more6").style.display = "none";
+            document.getElementById("dots6").style.display = "inline";
+            document.getElementById("button6").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+</script>
+
+<body>
+
+
+    <!------------------Navigation---------->
+    <nav class="nav screen">
+
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="./index.html" class="textgray">WORDOPHIC</a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="./index.html">Home</a>
+                    </li>
+
+                    <!-- <li class="nav-link">
+                        <a href="#">Archive</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Pages</a>
+                    </li> -->
+                    <li class="nav-link">
+                        <div class="dropdown">
+                            <a class="dropbtn" href="#">Categories</a>
+                            <div class="dropdown-content">
+                                <a href="./learning.html">Learning</a>
+                                <a href="./nutrition.html">Nutrition</a>
+                                <a href="./psychology.html">Psychology</a>
+                                <a href="./fashion.html">Fashion</a>
+                                <a href="./health.html">Health</a>
+                                <a href="./entertainment.html">Entertainment</a>
+
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="nav-link">
+                        <div class="dropdown">
+                            <a class="dropbtn" href="#">Contact Us!</a>
+                            <div class="dropdown-content">
+                                <a href="https://m.facebook.com/adky77">Adnan Khan</a>
+                                <a href="https://instagram.com/3man_shaikh?igshid=dxk03f4yyxs6">Eiman Sheikh</a>
+
+
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="social text-gray">
+
+            </div>
+        </div>
+    </nav>
+
+    <!--------x---------Navigation------x--->
+    <!-------- Main Site Section--------------->
+    <main>
+
+        <!-------------Site Title------->
+
+        <section class="site-title">
+
+            <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+
+                <h1>Nutrition</h1>
+
+            </div>
+        </section>
+        <!----x--------Site Title--x---->
+
+        <!------------------Blog Carousel------------->
+
+
+
+        <!----------x-------Blog Carousel--------x---->
+
+        <!---------------------Site Content------------->
+
+        <section class="container">
+            <div class="site-content">
+                <div class="posts">
+
+                    <div class="post-image">
+                  
+                        <div class="post-image">
+
+ 
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Health benefits of papaya</a>
+                            <p>
+                                Refined Oils: Refined vegetable oils are processed edibles manufactured from chemical processing which makes for their nature acidic and bleached transparent color. These oils can be unhealthy for our bodies.
+                                <span id="dots1">...</span>
+                                <span id="more1" style="display: none;"> Therefore, try using extra virgin olive oil and
+                                    coconut oil, or ghee. Although saturated fats can contribute to heart diseases if
+                                    the cholesterol level of the body is not regulated. But they are relatively
+                                    healthier, with
+                                    no side effects. White Sugar: White sugar is also known as ‘white poison’. Sugar, in
+                                    its unprocessed form is present in sugarcane and beet root. It contains phosphorous,
+                                    sulfur, zinc, vitamins, natural enzymes, and
+                                    other trace elements. The added chemicals and the bleaching agents during its
+                                    processing result in its crystal white color, while causing mineral losses. To
+                                    construe it up, excess sugar intake can cause obesity and
+                                    even diabetes. As an alternate to white sugar, use ‘Gurr’ or ‘Shakkar’. All-purpose
+                                    White Flour: All-purpose white flour (aka maida) consists of smallest particle size
+                                    and hence, minimal fibre. Consequently, it is more
+                                    prone to intensify IBS and may stick to the intestinal walls, thus affecting the
+                                    whole digestion process. You can use whole grain flour or chakki-aatta to substitute
+                                    for a healthier living.</span>
+                                <button class="btn btn-outline-primary" id="button1" onclick="read1()">Read
+                                    More</button>
+
+                            </p>
+
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+                                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+                                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+
+                                <img src="./diet.jpeg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
+                                <span>&nbsp;&nbsp;June 15,2020</span>
+
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">3 important dietary changes to adopt</a>
+                            <p>
+                                Refined Oils: Refined vegetable oils are processed edibles manufactured from chemical processing which makes for their nature acidic and bleached transparent color. These oils can be unhealthy for our bodies.
+                                <span id="dots1">...</span>
+                                <span id="more1" style="display: none;"> Therefore, try using extra virgin olive oil and
+                                    coconut oil, or ghee. Although saturated fats can contribute to heart diseases if
+                                    the cholesterol level of the body is not regulated. But they are relatively
+                                    healthier, with
+                                    no side effects. White Sugar: White sugar is also known as ‘white poison’. Sugar, in
+                                    its unprocessed form is present in sugarcane and beet root. It contains phosphorous,
+                                    sulfur, zinc, vitamins, natural enzymes, and
+                                    other trace elements. The added chemicals and the bleaching agents during its
+                                    processing result in its crystal white color, while causing mineral losses. To
+                                    construe it up, excess sugar intake can cause obesity and
+                                    even diabetes. As an alternate to white sugar, use ‘Gurr’ or ‘Shakkar’. All-purpose
+                                    White Flour: All-purpose white flour (aka maida) consists of smallest particle size
+                                    and hence, minimal fibre. Consequently, it is more
+                                    prone to intensify IBS and may stick to the intestinal walls, thus affecting the
+                                    whole digestion process. You can use whole grain flour or chakki-aatta to substitute
+                                    for a healthier living.</span>
+                                <button class="btn btn-outline-primary" id="button1" onclick="read1()">Read
+                                    More</button>
+
+                            </p>
+
+                        </div>
+                    </div>
+                    <hr>
+
+                </div>
+                <aside class="sidebar">
+                    <div class="category">
+                        <h2>Category</h2>
+                        <ul class="category-list">
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="100">
+                                <a href="./learning.html">Learning</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./psychology.html">Psychology</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./nutrition.html">Nutrition</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./fashion.html">Fashion</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./health.html">Health</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./entertainment.html">Entertainment</a>
+                                <span>(00)</span>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="newsletter" data-aos="fade-up" data-aos-delay="300">
+                        <h2>Newsletter</h2>
+                        <div class="form-element">
+                            <input type="text" class="input-element" placeholder="Email">
+                            <button class="btn form-btn">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="popular-tags">
+                        <h2>Popular Tags</h2>
+                        <div class="tags">
+                            <span class="tag flex-row" data-aos="flip-up" data-aos-delay="100">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;News</span>
+                            <span class="tag flex-row" data-aos="flip-up" data-aos-delay="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Media</span>
+                            <span class="tag flex-row" data-aos="flip-up" data-aos-delay="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nutrition</span>
+                            <span class="tag flex-row" data-aos="flip-up" data-aos-delay="100">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mental
+                                health</span>
+                            <span class="tag flex-row" data-aos="flip-up" data-aos-delay="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Awareness</span>
+                            <span class="tag flex-row" data-aos="flip-up" data-aos-delay="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Global
+                                events</span>
+                            <span class="tag flex-row" data-aos="flip-up" data-aos-delay="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learning</span>
+
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+
+        <!--------------x------Site Content----------x-->
+
+    </main>
+
+
+    <!-----x-- Main Site Section---------x----->
+
+    </------------------------Footer------------------- />
+
+    <footer class="footer ">
+        <div class="container ">
+            <div class="about-us " data-aos="fade-right " data-aos-delay="200 ">
+                <h2>About us</h2>
+                <p> Welcome to Wordophic! It is the brainchild of Adnan Khan and Eman Ahmad Shaikh which highlights different flavors of life. As far as its journey is concerned, Wordophic commenced when we identified the lack of space for writers and prosers
+                    in publishing industry. "I once tried to publish a magazine but didn 't know the publication process." -Eman Ahmad Shaikh. This idea popped up the next significant step of Wordophic in mind. It took some days in research to grow Pakistan's
+                    online ecosystem. Wordophic has dogged belief that the right to be published should not be fourwalled or limited upto certain writing topics but to be secular in writings. So the contents are written by our in-house team which showcases
+                    its work and beget healthy discussions. Wordophic also helps students master public writing signature, building self-esteem and learn about literature and narration. . </p>
+            </div>
+            <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+                <h2>Instagram</h2>
+                <div class="flex-row">
+                    <img src="./blogpost1.jpg" alt="insta1">
+                    <img src="./miss_eman.png" alt="insta2">
+                    <img src="./photo-of-audi-parked-near-trees-1402787.jpg" alt="insta3">
+
+                </div>
+                <div class="flex-row">
+                    <img src="./blogpost2.jpg" alt="insta4">
+                    <img src="./blogpost5.jpg" alt="insta5">
+                    <img src="./blogpost6.jpg" alt="insta6">
+
+                </div>
+            </div>
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Follow us</h2>
+                <p>Let us be social</p>
+                <div>
+                    <a href="https://instagram.com/3man_shaikh?igshid=eybw92nu29iu" target="_black"> Click Here to
+                        Follow Us on Instagram </a>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="rights flex-row">
+            <h4 class="text-gray"></h4>
+            Copyright ©2020 All rights reserved | made with love for Wordophic by &nbsp
+            <a href="https://instagram.com/adnankhan194?igshid=eybw92nu29iu" target="_black"> Adnan Khan </a>
+
+        </div>
+        <div class="move-up">
+            <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+        </div>
+
+
+        </div>
+
+    </footer>
+
+
+    </------------x-----------Footer--------------x---- />
+    <!--Jquery Library File-->
+    <script src="./Jquery3.5.1.min.js"></script>
+
+
+    <!-----------------Owl-Carousel js-------->
+    <script src="./owl.carousel.min.js"></script>
+
+    <!-------------------AOS js Library--------------->
+    <script src="./aos.js"></script>
+
+    <!--Custom Javascript-->
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
