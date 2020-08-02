@@ -581,7 +581,7 @@ footer.footer .move-up span:hover {
 
 @media only screen and (max-width:520px) {
     main.blog {
-        height: 125vh;
+        height: 110vh;
     }
     .site-content .post-content>.post-image .post-info {
         display: none;
@@ -605,7 +605,7 @@ footer.footer .move-up span:hover {
 
 @media only screen and (max-width:420px) {
     main.blog {
-        height: 70vh;
+        height: 50vh;
     }
     .site-content .post-content>.post-image .post-info {
         display: none;
@@ -626,7 +626,7 @@ footer.footer .move-up span:hover {
 
 @media only screen and (max-width:3600px) {
     main.blog {
-        height: 50vh;
+        height: 30vh;
     }
     .site-content .post-content>.post-image .post-info {
         display: none;
