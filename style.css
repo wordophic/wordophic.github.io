@@ -593,8 +593,8 @@ footer.footer .move-up span:hover {
         padding: 0 1.4rem;
         text-align: center;
     }
-    nav screen .toggle-collapse {
-        width: 80% !important;
+    nav .toggle-collapse {
+        width: 70% !important;
     }
 }
 
@@ -617,7 +617,7 @@ footer.footer .move-up span:hover {
         padding: 0 1.4rem;
         text-align: center;
     }
-    nav screen .toggle-collapse {
+    nav .toggle-collapse {
         width: 60% !important;
     }
 }
@@ -638,7 +638,7 @@ footer.footer .move-up span:hover {
         padding: 0 1.4rem;
         text-align: center;
     }
-    nav screen .toggle-collapse {
+    nav .toggle-collapse {
         width: 40% !important;
     }
 }
