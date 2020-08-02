@@ -621,3 +621,24 @@ footer.footer .move-up span:hover {
         width: 60% !important;
     }
 }
+
+/*x Viewport less than or equal to 360px x */
+
+@media only screen and (max-width:3600px) {
+    main.blog {
+        height: 50vh;
+    }
+    .site-content .post-content>.post-image .post-info {
+        display: none;
+    }
+    .footer.footer .container>div {
+        padding: 0.5rem .7rem !important;
+    }
+    .footer .rights {
+        padding: 0 1.4rem;
+        text-align: center;
+    }
+    nav screen .toggle-collapse {
+        width: 40% !important;
+    }
+}
