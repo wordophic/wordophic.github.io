@@ -583,6 +583,10 @@ footer.footer .move-up span:hover {
     main.blog {
         height: 125vh;
     }
+    .site-content .post-content{
+        display: initial;
+    }
+
     .site-content .post-content>.post-image .post-info {
         display: none;
     }
@@ -600,3 +604,31 @@ footer.footer .move-up span:hover {
 
 
 /*x Viewport less than or equal to 520px x */
+
+
+
+/*  Viewport less than or equal to 420px   */
+@media only screen and (max-width:420px) {
+    main.blog {
+        height: 60vh;
+        width: 60vh;
+    }
+    .site-content .post-content>.post-image .post-info {
+        display: none;
+    }
+
+    .site-content .post-content{
+        display: initial;
+    }
+
+    .footer.footer .container>div {
+        padding: 1rem .9rem !important;
+    }
+    .footer .rights {
+        padding: 0 1.4rem;
+        text-align: center;
+    }
+    nav .toggle-collapse {
+        width: 60% !important;
+    }
+}
