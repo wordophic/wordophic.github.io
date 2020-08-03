@@ -581,10 +581,10 @@ footer.footer .move-up span:hover {
 
 @media only screen and (max-width:520px) {
     main.blog {
-        height: 125vh;
+        height: 110vh;
     }
     main .site-content {
-        grid-template-columns: 90%;
+        grid-template-columns: 85%;
     }
     .footer.footer .container {
         grid-template-columns: repeat(1, 1fr);
@@ -613,7 +613,7 @@ footer.footer .move-up span:hover {
 /*  Viewport less than or equal to 420px   */
 @media only screen and (max-width:420px) {
     main.blog {
-        height: 120vh;
+        height: 100vh;
         
     }
     .site-content .post-content>.post-image .post-info {
@@ -621,7 +621,7 @@ footer.footer .move-up span:hover {
     }
 
     main .site-content {
-        grid-template-columns: 85%;
+        grid-template-columns: 80%;
     }
     .footer.footer .container {
         grid-template-columns: repeat(1, 1fr);
@@ -635,6 +635,6 @@ footer.footer .move-up span:hover {
         text-align: center;
     }
     nav .toggle-collapse {
-        width: 80% !important;
+        width: 75% !important;
     }
 }
