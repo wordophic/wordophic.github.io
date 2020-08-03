@@ -584,7 +584,7 @@ footer.footer .move-up span:hover {
         height: 125vh;
     }
     main .site-content {
-        grid-template-columns: 95%;
+        grid-template-columns: 90%;
     }
     .footer.footer .container {
         grid-template-columns: repeat(1, 1fr);
@@ -621,7 +621,7 @@ footer.footer .move-up span:hover {
     }
 
     main .site-content {
-        grid-template-columns: 90%;
+        grid-template-columns: 85%;
     }
     .footer.footer .container {
         grid-template-columns: repeat(1, 1fr);
