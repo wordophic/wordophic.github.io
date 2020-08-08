@@ -47,7 +47,7 @@ h1 {
 }
 
 h2 {
-    font-family: var(--Oswald);
+    font-family: var(--Open_Sans);
 }
 
 h3 {
@@ -65,7 +65,7 @@ button.btn {
 }
 
 span {
-    font-family: var(--Roboto);
+    font-family: var(--Open_Sans);
 }
 
 .container {
@@ -78,7 +78,7 @@ span {
 
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: var(--text-light)
+    color: var(--Open_Sans);
 }
 
 
