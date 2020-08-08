@@ -80,6 +80,11 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: var(--Open_Sans);
 }
+br{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--Open_Sans);
+
+}
 
 
 /*-----x--------Global Classes --------x--*/
