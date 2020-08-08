@@ -77,7 +77,7 @@ span {
 }
 
 p {
-    font-family: var(--Lato);
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: var(--text-light)
 }
 
