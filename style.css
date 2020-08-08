@@ -65,7 +65,7 @@ button.btn {
 }
 
 span {
-    font-family: var(--Open_Sans);
+    font-family: var(--Roboto);
 }
 
 .container {
@@ -78,12 +78,7 @@ span {
 
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: var(--Open_Sans);
-}
-br{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: var(--Open_Sans);
-
+    color: var(--text-light)
 }
 
 
