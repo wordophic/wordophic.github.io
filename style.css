@@ -77,7 +77,7 @@ span {
 }
 
 p {
-    font-family: var(--Lato);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--text-light)
 }
 
