@@ -111,6 +111,7 @@ main .site-title .site-background {
 main.site-title h1,
 h3 {
     margin: .2rem;
+    
 }
 
 main .site-title .btn {
@@ -239,7 +240,7 @@ main .site-content .post-content>.post-image .post-info span {
 }
 
 main .post-content .post-title a {
-    font-family: var(--Open_Sans);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.5rem;
 }
 
