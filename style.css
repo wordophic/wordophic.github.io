@@ -94,10 +94,10 @@ p {
 /*------------Site Title---------*/
 
 main .site-title {
-    background: url('./Logo1.jpg');
+    background: url('./Logo.jpg');
     background-size: cover;
     background-position: center;
-    height: 75vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
 }
