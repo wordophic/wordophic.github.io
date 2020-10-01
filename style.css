@@ -97,7 +97,7 @@ main .site-title {
     background: url('./Logo1.jpg');
     background-size: cover;
     background-position: center;
-    height: 180vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
 }
