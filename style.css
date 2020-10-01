@@ -95,9 +95,10 @@ p {
 
 main .site-title {
     background: url('./Logo.jpg');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
 }
