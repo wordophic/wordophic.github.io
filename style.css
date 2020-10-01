@@ -363,7 +363,7 @@ main .post-content .post-title a {
 
 .nav {
     background: white;
-    padding: 0 2rem;
+    padding: 1 2rem;
     height: 0rem;
     min-height: 50px;
     overflow: hidden;
@@ -393,9 +393,11 @@ main .post-content .post-title a {
     color: var(--text-gray);
 }
 
+/*
 .collapse {
     height: 30rem;
 }
+*/
 
 .nav .nav-items {
     display: flex;
