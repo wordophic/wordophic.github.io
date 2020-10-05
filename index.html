@@ -1075,6 +1075,22 @@
         }
     }
 
+    function read60() {
+        if (!i) {
+            document.getElementById("more60").style.display = "inline";
+            document.getElementById("dots60").style.display = "none";
+            document.getElementById("button60").style.display = "inline";
+            document.getElementById("button60").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more60").style.display = "none";
+            document.getElementById("dots60").style.display = "inline";
+            document.getElementById("button60").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
 
 
 
