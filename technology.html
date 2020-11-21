@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169400093-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-169400093-2');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordophic</title>
+    <!-- Font Awesome icons-->
+    <link rel="stylesheet" href="./all.css">
+
+    <!-----------------Owl-Carousel-------->
+    <link rel="stylesheet" href="./owl.carousel.min.css">
+    <link rel="stylesheet" href="./owl.theme.default.min.css">
+
+    <!-------------------AOS Library--------------->
+    <link rel="stylesheet" href="./aos.css">
+
+    <!-- Custom Style-->
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+<style>
+    .dropbtn {
+        font-size: 16px;
+        border: none;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: black;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px transparent;
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: flex;
+    }
+    
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+    
+    .screen {
+        padding-bottom: 50px;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .screen {
+            padding-bottom: 500px;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    }
+    /* @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+        .screen {
+            padding-bottom: 50px;
+        }
+    } */
+    /* @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+        .screen {
+            padding-bottom: 50px;
+        }
+    } */
+</style>
+<script type="text/javascript">
+    var i = 0;
+
+    function read() {
+        if (!i) {
+            document.getElementById("more").style.display = "inline";
+            document.getElementById("dots").style.display = "none";
+            document.getElementById("button").style.display = "inline";
+            document.getElementById("button").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more").style.display = "none";
+            document.getElementById("dots").style.display = "inline";
+            document.getElementById("button").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read1() {
+        if (!i) {
+            document.getElementById("more1").style.display = "inline";
+            document.getElementById("dots1").style.display = "none";
+            document.getElementById("button1").style.display = "inline";
+            document.getElementById("button1").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more1").style.display = "none";
+            document.getElementById("dots1").style.display = "inline";
+            document.getElementById("button1").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read2() {
+        if (!i) {
+            document.getElementById("more2").style.display = "inline";
+            document.getElementById("dots2").style.display = "none";
+            document.getElementById("button2").style.display = "inline";
+            document.getElementById("button2").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more2").style.display = "none";
+            document.getElementById("dots2").style.display = "inline";
+            document.getElementById("button2").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read3() {
+        if (!i) {
+            document.getElementById("more3").style.display = "inline";
+            document.getElementById("dots3").style.display = "none";
+            document.getElementById("button3").style.display = "inline";
+            document.getElementById("button3").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more3").style.display = "none";
+            document.getElementById("dots3").style.display = "inline";
+            document.getElementById("button3").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read4() {
+        if (!i) {
+            document.getElementById("more4").style.display = "inline";
+            document.getElementById("dots4").style.display = "none";
+            document.getElementById("button4").style.display = "inline";
+            document.getElementById("button4").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more4").style.display = "none";
+            document.getElementById("dots4").style.display = "inline";
+            document.getElementById("button4").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read5() {
+        if (!i) {
+            document.getElementById("more5").style.display = "inline";
+            document.getElementById("dots5").style.display = "none";
+            document.getElementById("button5").style.display = "inline";
+            document.getElementById("button5").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more5").style.display = "none";
+            document.getElementById("dots5").style.display = "inline";
+            document.getElementById("button5").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read6() {
+        if (!i) {
+            document.getElementById("more6").style.display = "inline";
+            document.getElementById("dots6").style.display = "none";
+            document.getElementById("button6").style.display = "inline";
+            document.getElementById("button6").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more6").style.display = "none";
+            document.getElementById("dots6").style.display = "inline";
+            document.getElementById("button6").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+    function read7() {
+        if (!i) {
+            document.getElementById("more7").style.display = "inline";
+            document.getElementById("dots7").style.display = "none";
+            document.getElementById("button7").style.display = "inline";
+            document.getElementById("button7").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more7").style.display = "none";
+            document.getElementById("dots7").style.display = "inline";
+            document.getElementById("button7").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+    function read8() {
+        if (!i) {
+            document.getElementById("more8").style.display = "inline";
+            document.getElementById("dots8").style.display = "none";
+            document.getElementById("button8").style.display = "inline";
+            document.getElementById("button8").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more8").style.display = "none";
+            document.getElementById("dots8").style.display = "inline";
+            document.getElementById("button8").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+    function read9() {
+        if (!i) {
+            document.getElementById("more9").style.display = "inline";
+            document.getElementById("dots9").style.display = "none";
+            document.getElementById("button9").style.display = "inline";
+            document.getElementById("button9").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more9").style.display = "none";
+            document.getElementById("dots9").style.display = "inline";
+            document.getElementById("button9").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+    function read10() {
+        if (!i) {
+            document.getElementById("more10").style.display = "inline";
+            document.getElementById("dots10").style.display = "none";
+            document.getElementById("button10").style.display = "inline";
+            document.getElementById("button10").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more10").style.display = "none";
+            document.getElementById("dots10").style.display = "inline";
+            document.getElementById("button10").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+    function read11() {
+        if (!i) {
+            document.getElementById("more11").style.display = "inline";
+            document.getElementById("dots11").style.display = "none";
+            document.getElementById("button11").style.display = "inline";
+            document.getElementById("button11").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more11").style.display = "none";
+            document.getElementById("dots11").style.display = "inline";
+            document.getElementById("button11").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+    function read12() {
+        if (!i) {
+            document.getElementById("more12").style.display = "inline";
+            document.getElementById("dots12").style.display = "none";
+            document.getElementById("button12").style.display = "inline";
+            document.getElementById("button12").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more12").style.display = "none";
+            document.getElementById("dots12").style.display = "inline";
+            document.getElementById("button12").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+    function read13() {
+        if (!i) {
+            document.getElementById("more13").style.display = "inline";
+            document.getElementById("dots13").style.display = "none";
+            document.getElementById("button13").style.display = "inline";
+            document.getElementById("button13").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more13").style.display = "none";
+            document.getElementById("dots13").style.display = "inline";
+            document.getElementById("button13").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+    
+    function read14() {
+        if (!i) {
+            document.getElementById("more14").style.display = "inline";
+            document.getElementById("dots14").style.display = "none";
+            document.getElementById("button14").style.display = "inline";
+            document.getElementById("button14").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more14").style.display = "none";
+            document.getElementById("dots14").style.display = "inline";
+            document.getElementById("button14").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+    function read15() {
+        if (!i) {
+            document.getElementById("more15").style.display = "inline";
+            document.getElementById("dots15").style.display = "none";
+            document.getElementById("button15").style.display = "inline";
+            document.getElementById("button15").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more15").style.display = "none";
+            document.getElementById("dots15").style.display = "inline";
+            document.getElementById("button15").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+    function read16() {
+        if (!i) {
+            document.getElementById("more16").style.display = "inline";
+            document.getElementById("dots16").style.display = "none";
+            document.getElementById("button16").style.display = "inline";
+            document.getElementById("button16").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more16").style.display = "none";
+            document.getElementById("dots16").style.display = "inline";
+            document.getElementById("button16").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+    function read17() {
+        if (!i) {
+            document.getElementById("more17").style.display = "inline";
+            document.getElementById("dots17").style.display = "none";
+            document.getElementById("button17").style.display = "inline";
+            document.getElementById("button17").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more17").style.display = "none";
+            document.getElementById("dots17").style.display = "inline";
+            document.getElementById("button17").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+    function read18() {
+        if (!i) {
+            document.getElementById("more18").style.display = "inline";
+            document.getElementById("dots18").style.display = "none";
+            document.getElementById("button18").style.display = "inline";
+            document.getElementById("button18").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more18").style.display = "none";
+            document.getElementById("dots18").style.display = "inline";
+            document.getElementById("button18").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+    function read19() {
+        if (!i) {
+            document.getElementById("more19").style.display = "inline";
+            document.getElementById("dots19").style.display = "none";
+            document.getElementById("button19").style.display = "inline";
+            document.getElementById("button19").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more19").style.display = "none";
+            document.getElementById("dots19").style.display = "inline";
+            document.getElementById("button19").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read20() {
+        if (!i) {
+            document.getElementById("more20").style.display = "inline";
+            document.getElementById("dots20").style.display = "none";
+            document.getElementById("button20").style.display = "inline";
+            document.getElementById("button20").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more20").style.display = "none";
+            document.getElementById("dots20").style.display = "inline";
+            document.getElementById("button20").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+
+    function read21() {
+        if (!i) {
+            document.getElementById("more21").style.display = "inline";
+            document.getElementById("dots21").style.display = "none";
+            document.getElementById("button21").style.display = "inline";
+            document.getElementById("button21").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more21").style.display = "none";
+            document.getElementById("dots21").style.display = "inline";
+            document.getElementById("button21").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+
+    function read22() {
+        if (!i) {
+            document.getElementById("more22").style.display = "inline";
+            document.getElementById("dots22").style.display = "none";
+            document.getElementById("button22").style.display = "inline";
+            document.getElementById("button22").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more22").style.display = "none";
+            document.getElementById("dots22").style.display = "inline";
+            document.getElementById("button22").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+
+
+    function read23() {
+        if (!i) {
+            document.getElementById("more23").style.display = "inline";
+            document.getElementById("dots23").style.display = "none";
+            document.getElementById("button23").style.display = "inline";
+            document.getElementById("button23").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more23").style.display = "none";
+            document.getElementById("dots23").style.display = "inline";
+            document.getElementById("button23").innerHTML = "Read More";
+            i = 0;
+        }
+    }    function read24() {
+        if (!i) {
+            document.getElementById("more24").style.display = "inline";
+            document.getElementById("dots24").style.display = "none";
+            document.getElementById("button24").style.display = "inline";
+            document.getElementById("button24").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more24").style.display = "none";
+            document.getElementById("dots24").style.display = "inline";
+            document.getElementById("button24").innerHTML = "Read More";
+            i = 0;
+        }
+    }    function read25() {
+        if (!i) {
+            document.getElementById("more25").style.display = "inline";
+            document.getElementById("dots25").style.display = "none";
+            document.getElementById("button25").style.display = "inline";
+            document.getElementById("button25").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more25").style.display = "none";
+            document.getElementById("dots25").style.display = "inline";
+            document.getElementById("button25").innerHTML = "Read More";
+            i = 0;
+        }
+    }    function read26() {
+        if (!i) {
+            document.getElementById("more26").style.display = "inline";
+            document.getElementById("dots26").style.display = "none";
+            document.getElementById("button26").style.display = "inline";
+            document.getElementById("button26").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more26").style.display = "none";
+            document.getElementById("dots26").style.display = "inline";
+            document.getElementById("button26").innerHTML = "Read More";
+            i = 0;
+        }
+    }    function read27() {
+        if (!i) {
+            document.getElementById("more27").style.display = "inline";
+            document.getElementById("dots27").style.display = "none";
+            document.getElementById("button27").style.display = "inline";
+            document.getElementById("button27").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more27").style.display = "none";
+            document.getElementById("dots27").style.display = "inline";
+            document.getElementById("button27").innerHTML = "Read More";
+            i = 0;
+        }
+    }    function read28() {
+        if (!i) {
+            document.getElementById("more28").style.display = "inline";
+            document.getElementById("dots28").style.display = "none";
+            document.getElementById("button28").style.display = "inline";
+            document.getElementById("button28").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more28").style.display = "none";
+            document.getElementById("dots28").style.display = "inline";
+            document.getElementById("button28").innerHTML = "Read More";
+            i = 0;
+        }
+    }    function read29() {
+        if (!i) {
+            document.getElementById("more29").style.display = "inline";
+            document.getElementById("dots29").style.display = "none";
+            document.getElementById("button29").style.display = "inline";
+            document.getElementById("button29").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more29").style.display = "none";
+            document.getElementById("dots29").style.display = "inline";
+            document.getElementById("button29").innerHTML = "Read More";
+            i = 0;
+        }
+    }    function read30() {
+        if (!i) {
+            document.getElementById("more30").style.display = "inline";
+            document.getElementById("dots30").style.display = "none";
+            document.getElementById("button30").style.display = "inline";
+            document.getElementById("button30").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more30").style.display = "none";
+            document.getElementById("dots30").style.display = "inline";
+            document.getElementById("button30").innerHTML = "Read More";
+            i = 0;
+        }
+    }    function read31() {
+        if (!i) {
+            document.getElementById("more31").style.display = "inline";
+            document.getElementById("dots31").style.display = "none";
+            document.getElementById("button31").style.display = "inline";
+            document.getElementById("button31").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more31").style.display = "none";
+            document.getElementById("dots31").style.display = "inline";
+            document.getElementById("button31").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+
+    function read32() {
+        if (!i) {
+            document.getElementById("more32").style.display = "inline";
+            document.getElementById("dots32").style.display = "none";
+            document.getElementById("button32").style.display = "inline";
+            document.getElementById("button32").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more32").style.display = "none";
+            document.getElementById("dots32").style.display = "inline";
+            document.getElementById("button32").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+
+
+
+
+    function read33() {
+        if (!i) {
+            document.getElementById("more33").style.display = "inline";
+            document.getElementById("dots33").style.display = "none";
+            document.getElementById("button33").style.display = "inline";
+            document.getElementById("button33").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more33").style.display = "none";
+            document.getElementById("dots33").style.display = "inline";
+            document.getElementById("button33").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+
+
+
+    function read34() {
+        if (!i) {
+            document.getElementById("more34").style.display = "inline";
+            document.getElementById("dots34").style.display = "none";
+            document.getElementById("button34").style.display = "inline";
+            document.getElementById("button34").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more34").style.display = "none";
+            document.getElementById("dots34").style.display = "inline";
+            document.getElementById("button34").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+
+
+
+
+</script>
+
+<body>
+
+
+    <!------------------Navigation---------->
+    <nav class="nav screen">
+
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="./index.html" class="textgray">WORDOPHIC</a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="./index.html">Home</a>
+                    </li>
+
+                    <!-- <li class="nav-link">
+                        <a href="#">Archive</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Pages</a>
+                    </li> -->
+                    <li class="nav-link">
+                        <div class="dropdown">
+                            <div class="dropdown">
+                                <a class="dropbtn" href="#">Categories</a>
+                                <div class="dropdown-content">
+                                    <a href="./learning.html">Edify Me</a>
+                                    <a href="./technology.html">Technology</a>
+                                    <a href="./nutrition.html">Nutrition Theatre</a>
+                                    <a href="./psychology.html">Psych Therapy</a>
+                                    <!----<a href="./fashion.html">Fashion</a>--->
+                                    <a href="./health.html">Fitness Tracker</a>
+                                    <a href="./entertainment.html">House of Entertainment</a>
+    
+                                </div>
+                            </div>
+
+                    </li>
+                    <li class="nav-link">
+                        <div class="dropdown">
+                            <a class="dropbtn" href="#">Contact Us!</a>
+                            <div class="dropdown-content">
+                                <a href="https://m.facebook.com/adky77">Adnan Khan</a>
+                                <a href="https://instagram.com/3man_shaikh?igshid=dxk03f4yyxs6">Eman Sheikh</a>
+
+
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="social text-gray">
+
+            </div>
+        </div>
+    </nav>
+
+    <!--------x---------Navigation------x--->
+    <!-------- Main Site Section--------------->
+    <main>
+
+        <!-------------Site Title------->
+
+        <section class="site-title">
+
+            <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+
+                <h1>Technology</h1>
+
+            </div>
+        </section>
+        <!----x--------Site Title--x---->
+
+        <!------------------Blog Carousel------------->
+        <section class="container">
+            <div class="site-content">
+                <div class="posts">
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+
+
+
+                        <!---------This section down needs to be duplicated for future posts. THIS IS POST 1-->
+
+
+
+
+<!--------Post starts here-->
+<!------Post by Adnan-->
+<div class="post-image">
+    <div>
+        <img src="./AI.png" class="img" alt="blog2">
+    </div>
+    <div class="post-info flex-row">
+        <span>&nbsp;&nbsp;Posted by: Adnan Khan </span>
+        <span>&nbsp;&nbsp;November 20,2020</span>
+        <!--<span>7 comments</span>-->
+    </div>
+</div>
+<div class="post-title">
+    <a href="#">How AI is Changing the World?</a>
+    <p>
+        As quoted by Professor Andrew Ng, "Artificial Intelligence (A.I.) is the new electricity," This new electricity drives the world towards the  <span id="dots">...</span>
+
+        
+
+        <span id="more" style="display: none;">  
+            
+            
+            
+             fourth industrial revolution. A.I. means teaching the machine and making the machine becoming smart. An Artificial Intelligent Machine learns by itself and not by explicit programming. Today, machine learning is combating one of the leading causes of blindness, and enabling people with a neurological disease like A-L-S (Amyotrophic Lateral Sclerosis) to communicate with their surroundings. A.I. is changing the way we think about the mind and body. 
+            <br>Besides, advancement in A.I has made it possible for a machine to compete like an athlete, write a movie, and bring autonomous self-driving cars into existence through reinforcement learning. Currently, NASA is using A.I to build habitat autonomously on Mars using reinforcement learning for the space explorers before they arrive at Mars.
+            Today Network Science Institute at Northeastern University in Boston claims that they can model the whole physical world using the available data and computing power.
+            
+            <br>Suppose you want to dive into A.I. and wish to learn about how to integrate A.I. applications in your daily routine tasks or your business. In that case, there is a free course offered through Coursera Inc by Professor Andrew Ng. To see course details, 
+            <a href="https://www.coursera.org/learn/ai-for-everyone" target="_black"> Click Here </a>
+            </span>
+        
+            <button class="btn btn-outline-primary" id="button" onclick="read()">Read More</button>
+            
+
+    </p>
+    <hr>
+ </div>
+
+
+  <!-----Your post ends here---->
+
+
+                       
+                    
+                 
+                   
+                    
+
+                </div>
+                <aside class="sidebar">
+                    <div class="category">
+                        <h2>Category</h2>
+                        <ul class="category-list">
+                            <li class="list-items" >
+                                <a href="./learning.html">Edify Me</a>
+                                <span>(21)</span>
+                            </li>
+                            <li class="list-items" >
+                                <a href="./psychology.html">Psych Therapy</a>
+                                <span>(08)</span>
+                            </li>
+                            <li class="list-items" >
+                                <a href="./nutrition.html">Nutrition Theatre</a>
+                                <span>(11)</span>
+                            </li>
+                           
+                            <li class="list-items" >
+                                <a href="./health.html">Fitness Tracker</a>
+                                <span>(09)</span>
+                            </li>
+                            <li class="list-items" >
+                                <a href="./entertainment.html"> House of Entertainment</a>
+                                <span>(08)</span>
+                            </li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="newsletter" data-aos="fade-up" data-aos-delay="300">
+                        <h2>Newsletter</h2>
+                        <div class="form-element">
+                            <input type="text" class="input-element" placeholder="Email">
+                            <button class="btn form-btn">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="popular-tags">
+                        <h2>Popular Tags</h2>
+                        <div class="tags">
+                            <span class="tag flex-row " data-aos="flip-up " data-aos-delay="100 ">News</span>
+                            <span class="tag flex-row " data-aos="flip-up " data-aos-delay="200 ">Media</span>
+                            <span class="tag flex-row " data-aos="flip-up " data-aos-delay="200 ">Nutrition</span>
+                            <span class="tag flex-row " data-aos="flip-up " data-aos-delay="100 ">Mental health</span>
+                            <span class="tag flex-row " data-aos="flip-up " data-aos-delay="200 ">Awareness</span>
+                            <span class="tag flex-row " data-aos="flip-up " data-aos-delay="200 ">Global events</span>
+                            <span class="tag flex-row " data-aos="flip-up " data-aos-delay="200 ">Learning</span>
+
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!--------------x------Site Content----------x-->
+
+    </main>
+
+
+    <!-----x-- Main Site Section---------x----->
+
+    <!---------Footer------------>
+
+    <footer class="footer ">
+        <div class="container ">
+            <div class="about-us " data-aos="fade-right " data-aos-delay="200 ">
+                <h2>About us</h2>
+                <p> Welcome to Wordophic! It is the brainchild of Adnan Khan and Eman Ahmad Shaikh which highlights different flavors of life. As far as its journey is concerned, Wordophic commenced when we identified the lack of space for writers and prosers
+                    in publishing industry. "I once tried to publish a magazine but didn 't know the publication process." -Eman Ahmad Shaikh. This idea popped up the next significant step of Wordophic in mind. It took some days in research to grow Pakistan's
+                    online ecosystem. Wordophic has dogged belief that the right to be published should not be fourwalled or limited upto certain writing topics but to be secular in writings. So the contents are written by our in-house team which showcases
+                    its work and beget healthy discussions. Wordophic also helps students master public writing signature, building self-esteem and learn about literature and narration. . </p>
+            </div>
+            <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+                <h2>Instagram</h2>
+                <div class="flex-row">
+                    <img src="./blogpost1.jpg" alt="insta1">
+                    <img src="./miss_eman.png" alt="insta2">
+                    <img src="./photo-of-audi-parked-near-trees-1402787.jpg" alt="insta3">
+
+                </div>
+                <div class="flex-row">
+                    <img src="./blogpost2.jpg" alt="insta4">
+                    <img src="./blogpost5.jpg" alt="insta5">
+                    <img src="./blogpost6.jpg" alt="insta6">
+
+                </div>
+            </div>
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Follow us</h2>
+                <p>Let us be social</p>
+                <div>
+                    <a href="https://instagram.com/3man_shaikh?igshid=eybw92nu29iu" target="_black"> Click Here to
+                        Follow Us on Instagram <i class="fab fa-instagram"></i> </a>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://github.com/Adnan-Khan7" target="_black"> Click Here to
+                        Follow Us on Github<i class="fab fa-github"></i> </a>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="rights flex-row">
+            <h4 class="text-gray"></h4>
+            Copyright ©2020 All rights reserved | made with love for Wordophic by &nbsp
+            <a href="https://www.linkedin.com/in/adnan-khan-aba952153/" target="_black"> Adnan Khan <i class="fab fa-linkedin"></i> </a>
+
+        </div>
+        <div class="move-up">
+            <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+        </div>
+
+
+        </div>
+
+    </footer>
+
+
+    <!------------x-----------Footer--------------x---->
+    <!---Jquery Library File-->
+    <script src="./Jquery3.5.1.min.js"></script>
+
+
+    <!-----------------Owl-Carousel js-------->
+    <script src="./owl.carousel.min.js"></script>
+
+    <!-------------------AOS js Library--------------->
+    <script src="./aos.js"></script>
+
+    <!--Custom Javascript-->
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
