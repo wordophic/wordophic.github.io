@@ -65,7 +65,7 @@ button.btn {
 }
 
 span {
-    font-family:  Tahoma, 'Segoe UI',Verdana, sans-serif;
+    font-family:  var(--Open_Sans);
 }
 
 .container {
