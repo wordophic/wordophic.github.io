@@ -51,7 +51,7 @@ h2 {
 }
 
 h3 {
-    font-family: var(--Open_Sans);
+    font-family:  Tahoma,'Segoe UI', Verdana, sans-serif;
     font-size: 1.3rem;
 }
 
@@ -60,7 +60,7 @@ button.btn {
     border-radius: 2rem;
     padding: 1rem 3rem;
     font-size: 1rem;
-    font-family: var(--Open_Sans);
+    font-family:  Tahoma,'Segoe UI', Verdana, sans-serif;
     cursor: pointer;
 }
 
