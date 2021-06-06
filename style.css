@@ -112,6 +112,7 @@ main .site-title .site-background {
 main.site-title h1,
 h3 {
     margin: .2rem;
+    font-family:  Tahoma,'Segoe UI', Verdana, sans-serif;
     
 }
 
