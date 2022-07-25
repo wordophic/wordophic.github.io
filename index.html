@@ -1779,6 +1779,22 @@ function read68() {
         }
     }
 
+       function read101() {
+        if (!i) {
+            document.getElementById("more101").style.display = "inline";
+            document.getElementById("dots101").style.display = "none";
+            document.getElementById("button101").style.display = "inline";
+            document.getElementById("button101").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more101").style.display = "none";
+            document.getElementById("dots101").style.display = "inline";
+            document.getElementById("button101").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
 
 </script>
 
@@ -1980,6 +1996,50 @@ function read68() {
 
 
                         <!------data-aos="zoom-in" data-aos-delay="200"-->
+
+
+
+
+
+
+       <!--------Post starts here-->
+                                                <div class="post-image">
+                                                    <div>
+                                                        <img src="./nutrition/brown_rice.jpeg" class="img" alt="blog2">
+                                                    </div>
+                                                    <div class="post-info flex-row">
+                                                        <span>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
+                                                        <span>&nbsp;&nbsp;July 25,2022</span>
+                                                        <!--<span>7 comments</span>-->
+                                                    </div>
+                                                </div>
+                                                <div class="post-title">
+                                                    <a href="#"> Why replace white rice with brown rice?</a>
+                                                    <p>
+                                                         Rice comes in different varieties like black, white, vanaspati, brown rice, etc. Brown rice is a staple food containing Mg, P, Se, thiamin, niacin, <span id="dots101">...</span>
+                                                        <span id="more101" style="display: none;">
+
+                                                            vitamin B6, fiber, and Mg. One cup of brown rice comprises 88% of the total Mg intake. It is high in fiber and is gluten-free.<br>
+
+Mg helps in bone formation, regulation of blood pressure, prevention of gastrointestinal disorders, and aids in alleviating diabetes. Brown rice contains phytic acid which is a good antioxidant, and also some anti-cancer nutrients. The glycemic index of brown rice is as low as 50 which helps in reducing the risk of type 2 diabetes. It is also used as a substitute for rice and meals. Since brown rice only lacks the outermost layer called husk, the process of refining brown rice into white rice removes bran, bran dust, and husk, and you are left with the starch solely and a few trace nutrients. This process destroys 67% of vitamin B3, 8% of vitamin B1, 90% of vitamin B6, 50% of manganese, 50% of phosphorus, 60% of iron, 100 % of fiber, and 100% of essential fatty acids. The glycemic index of white rice is 80 which is detrimental to insulin resistance and increases the risk for type 2 diabetes. <br>
+However, it is ok to eat white rice especially when you don’t have the option to go for the brown variety.
+                                                    
+
+ 
+                                                              </i> </span>
+                                                        <button class="btn btn-outline-primary" id="button101" onclick="read101()">Read
+                                                            More</button>
+                                                            
+                                                
+                                                    </p>
+                                                    <hr>
+                                                 </div>
+                                                
+                                                
+                                                  <!-----Your post ends here---->
+
+
+
 
 
 
